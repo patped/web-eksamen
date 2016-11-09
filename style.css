@@ -23,9 +23,9 @@ nav ul li {
 	color: #fff;
 	font-family: Georgia, serif;
 	padding-top: 20px;
-	width: 400PX;
+	width: 200PX;
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 85px;
 
 }
 
@@ -70,10 +70,15 @@ table, tr, td{
 
 
 body {
-
+background-color: black;
+font
 }
 
 img{
 	width: 100%;
-	height: 35%;
 }
+p{
+	color: white;
+}
+
+
