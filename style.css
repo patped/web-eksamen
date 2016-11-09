@@ -76,17 +76,9 @@ font
 
 img{
 	width: 100%;
-	height: 10%;
 }
 p{
 	color: white;
 }
-br{
-	
-}
 
-.tableleft{
-	border-collapse: collapse;
-    border: 1px solid white;
-    margin-left: 10px;
-}
+
