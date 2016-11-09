@@ -1,84 +1,84 @@
-.header {
-	width: 100%;
-	height:100px;
-	background: #000;
-	margin:0;
-		}
-h1{
-	font-family: Georgia, serif;
-	color: #F9F5EC;
-	text-align:center;
-	padding-top: 30px;
-	font-size: 50px;
+header {
+  width: 100%;
+  height:400px;
+  background: #6DFFFA;
+  margin:0;
+  }
+
+h1 {
+  text-indent: -9999px
+}
+
+#menubar {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 6.5px;
+  display: block;
+}
+
+#buttonHjem {
+  background: #FF1919;
+}
+
+#buttonGalleri {
+  background: #BC00A1;
+}
+
+#buttonTur {
+  background: #6EF1FA;
+}
+
+#buttonBestilling {
+  background: #63FF89;
+}
+
+.hjem {
+  background: #B60000;
+}
+
+.galleri {
+  background: #7F006C;
+}
+
+.tur {
+  background: #00ADB8;
+}
+
+.bestilling {
+  background: #00CB31;
 }
 
 nav {
-	width: 100%;
-	height:55px;
-	background: rgba(0,0,0,0.7);
-	margin:0;
+  margin-left: 10%;
+  width: 500px;
 }
-nav ul li {
-	display:inline-block;
-	color: #fff;
-	font-family: Georgia, serif;
-	padding-top: 20px;
-	width: 200PX;
-	text-align: center;
-	margin-left: 85px;
 
+nav ul li {
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
 }
 
 nav ul li a {
-
-	color: #F9F5EC;
-	text-decoration: none;
+  font-size: 24px;
+  padding: 20px 5px 5px 5px;
+  margin-left: 2px;
 }
 
-nav ul li a:hover{
-	color: #BEBEBE;
+nav ul li a:hover {
+  padding: 20px 5px 15px 5px;
 }
 
-
-.personal{
-	width: 300px;
-	display: block;
-	top: 300px;
-	float:left;
-	position: relative;
-
-
-}
-.main {
-	background: rgba(83,80,76,0.3);
-	width: 1040px;
-	height: 800px;
-	display: block;
-	top: 10px;
-	margin:auto;
-	position: relative;
-
-
+main {
+  background: rgba(83,80,76,0.3);
+  width: 80%;
+  display: block;
+  top: 10px;
+  margin: auto;
+  position: relative;
 }
 
-
-table, tr, td{
-	padding-top: 50px;
-	margin: auto;
-	padding-left: 10px;
+a {
+  color: #FFF;
+  text-decoration: none;
 }
-
-
-body {
-background-color: black;
-font
-}
-
-img{
-	width: 100%;
-}
-p{
-	color: white;
-}
-
-
