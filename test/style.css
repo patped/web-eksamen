@@ -1,0 +1,209 @@
+.header {
+	width: 100%;
+	height:100px;
+	background: #000;
+	margin:0;
+		}
+h1{
+	font-family: Georgia, serif;
+	color: #F9F5EC;
+	text-align:center;
+	padding-top: 30px;
+	font-size: 50px;
+}
+
+nav {
+	width: 100%;
+	height:55px;
+	background: rgba(0,0,0,0.7);
+	margin:0;
+}
+nav ul li {
+	display:inline-block;
+	color: #fff;
+	font-family: Georgia, serif;
+	padding-top: 20px;
+	width: 200PX;
+	text-align: center;
+	margin-left: 85px;
+
+}
+
+nav ul li a {
+
+	color: #F9F5EC;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #BEBEBE;
+}
+
+
+.personal{
+	width: 300px;
+	display: block;
+	top: 300px;
+	float:left;
+	position: relative;
+
+
+}
+.main {
+	background: rgba(83,80,76,0.3);
+	width: 1040px;
+	height: 800px;
+	display: block;
+	top: 10px;
+	margin:auto;
+	position: relative;
+
+
+}
+
+
+table, tr, td{
+	padding-top: 50px;
+	margin: auto;
+	padding-left: 10px;
+}
+
+
+body {
+background-color: white;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	color: black;
+}
+
+.container1{
+	height: 250px;
+	margin: auto;
+	background-image: url("bilder/h1font.png");
+	background-repeat: no-repeat;
+	display: cover;
+	position: relative;
+	bottom: 10px;
+}
+
+
+.starfont{
+	padding-top: 90px;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 32px;
+	font-weight: 900;
+	text-align: center;
+	
+}
+
+
+.linktekst{
+	font-family: proxima-nova, sans-serif;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+
+.container2{
+	height: 150px;
+	margin: auto;
+	background-image: url("bilder/h1font.png");
+	background-repeat: no-repeat;
+	display: cover;
+	position: relative;
+}
+
+
+.boks1 {
+	height: 640px;
+	width: 640px;
+	background-image: url("bilder/mountain.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: cover;
+	position: relative;
+	bottom: 76px;
+	float:left;
+}
+
+p.boksp1{
+	bottom: 693px;
+	width: 640px;
+	color: #e7e7e7;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+
+.boks2 {
+	left: 640px;
+	bottom: 732px;
+	height: 330px;
+	width: 330px;
+	background-image: url("bilder/dog.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	float: left;
+}
+
+.bokstekst2 {
+	width: 300px;
+	margin-top: 25px;
+	padding-right: 25px;
+	float: right;
+}
+
+.boks3 {
+	left: 310px;
+	bottom: 429px;
+	height: 312px;
+	width: 640px;
+	background-image: url("bilder/women.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	float: left;
+}
+
+.bokstekst3 {
+	left: 950px;
+	bottom: 1070px;
+	height: 330px;
+	width: 330px;
+	background-image: url("bilder/bird.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	float: left;
+}
+
+.dreamfont{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	display: cover;
+}
+
+.boks4{
+	left: 0.2px;
+	bottom: 809px;
+	height: 380px;
+	width: 120px;
+	background-image: url("bilder/.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: cover;
+	position: relative;
+	float: right;	
+}

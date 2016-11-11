@@ -124,7 +124,7 @@ p {
 .boks1 {
 	height: 640px;
 	width: 640px;
-	background-image: url("bilder/mountain.png");
+	background-image: url("bilder/mountain1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: cover;
@@ -142,7 +142,7 @@ p.boksp1{
 	position: relative;
 }
 
-.boks2 {
+.boks2{
 	left: 640px;
 	bottom: 732px;
 	height: 330px;
@@ -151,7 +151,37 @@ p.boksp1{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	filter: alpha(opacity=100);
 	float: left;
+}
+
+
+
+p.textboks2{
+	left: 640px;
+	bottom: 732px;
+	height: 330px;
+	background: #FFF;
+	opacity: 0;
+	
+}
+
+.boks2:hover .textboks2{
+	cursor: pointer;
+	color: white;
+	background-color: rgba(0,0,0,0.65);
+	opacity: 0.6; 
+	-webkit-transition: all 0.45s ease-in-out;
+	-moz-transition: all 0.45s ease-in-out;
+	-o-transition: all 0.45s ease-in-out;
+	-ms-transition: all 0.45s ease-in-out;
+	transition: all 0.45s ease-in-out;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;	
+
 }
 
 .bokstekst2 {
@@ -164,7 +194,7 @@ p.boksp1{
 .boks3 {
 	left: 310px;
 	bottom: 429px;
-	height: 312px;
+	height: 337px;
 	width: 640px;
 	background-image: url("bilder/women.jpg");
 	background-repeat: no-repeat;
@@ -174,10 +204,10 @@ p.boksp1{
 }
 
 .bokstekst3 {
-	left: 950px;
-	bottom: 1070px;
-	height: 330px;
-	width: 330px;
+	left: 970px;
+	bottom: 1069px;
+	height: 303px;
+	width: 311px;
 	background-image: url("bilder/bird.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -185,7 +215,7 @@ p.boksp1{
 	float: left;
 }
 
-.dreamfont{
+.birdfont{
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-size: 40px;
@@ -195,15 +225,34 @@ p.boksp1{
 	display: cover;
 }
 
-.boks4{
-	left: 0.2px;
-	bottom: 809px;
-	height: 380px;
-	width: 120px;
-	background-image: url("bilder/.jpeg");
+.snowfont{
+	right: 395px;
+	top: 487px;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	display: cover;
+}
+
+.container3{
+	height: 150px;
+	margin: auto;
+	background-image: url("bilder/embrace.png");
 	background-repeat: no-repeat;
-	background-size: cover;
 	display: cover;
 	position: relative;
-	float: right;	
+	bottom: 40px;
 }
+
+.container4{
+	height: 456px;
+	width: 800px;
+	margin: auto;
+	background-image: url("bilder/nordman.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+
