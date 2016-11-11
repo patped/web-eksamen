@@ -244,7 +244,7 @@ p.textboks2{
 	background-repeat: no-repeat;
 	display: cover;
 	position: relative;
-	bottom: 40px;
+	bottom: 68px;
 }
 
 .hovereffect1 {
@@ -372,7 +372,7 @@ p.textboks2{
   color: #fff;
   text-align: center;
   position: relative;
-  top: 275px;
+  top: 284px;
   font-size: 17px;
   padding: 25px;
   background: rgba(0, 0, 0, 0.6);
@@ -386,16 +386,15 @@ p.textboks2{
 .hovereffect2:hover h2 {
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
-  transform: translateY(-290px);
+  transform: translateY(-285px);
 }
 
 .hovereffect2 a.info {
   display: inline-block;
   text-decoration: none;
-  padding: 7px 14px;
   text-transform: uppercase;
   color: #fff;
-  border: 1px solid #fff;
+  
   background-color: transparent;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -405,8 +404,9 @@ p.textboks2{
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   font-weight: normal;
-  margin: 43px 0 0 0;
-  padding: 242px 150px;
+  margin: 173px 0 0 0;
+  padding: 82px 30px;
+
 }
 
 .hovereffect2:hover a.info {
