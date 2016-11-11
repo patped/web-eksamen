@@ -1,5 +1,5 @@
 body {
-  background: #E3E3E3
+  background: #E3E3E3;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
   }
 
 h1 {
-  text-indent: -9999px
+  text-indent: -9999px;
 }
 
 #menubar {
@@ -74,7 +74,6 @@ nav ul li a:hover {
 }
 
 main {
-  background: rgba(83,80,76,0.3);
   width: 80%;
   display: block;
   top: 10px;
@@ -85,4 +84,10 @@ main {
 a {
   color: #FFF;
   text-decoration: none;
+}
+
+.miniCont {
+  width: 600px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
