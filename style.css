@@ -95,15 +95,36 @@ a {
   text-decoration: none;
 }
 
-.miniCont {
+.contTxt {
+  margin-right: 10px;
+}
+
+.sContainer {
   display: block;
   width: 33%;
   height: 200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.contTxt {
-  margin-right: 10px;
+.mContainer {
+  display: block;
+  width: 33%;
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lContainer {
+  display: block;
+  width: 66%;
+  height: 400px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.xlContainer {
+  display: block;
+  width: 33%;
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 #snoscooterImg {
@@ -113,4 +134,3 @@ a {
   background: url(bilder/snoscootermini.jpg);
   float: left;
 }
-
