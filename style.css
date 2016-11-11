@@ -196,10 +196,22 @@ a {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-#snoscooterImg {
+.faktaContainer {
+
+}
+
+#sSnoscooterImg {
   margin: 10px;
   width: 200px;
   height: 150px;
-  background: url(bilder/snoscootermini.jpg);
+  background: url(bilder/ssnoscootermini.jpg);
+  float: left;
+}
+
+#mSnoscooterImg {
+  margin: 15px;
+  width: 560px;
+  height: 420px;
+  background: url(bilder/msnoscooter.jpg);
   float: left;
 }
