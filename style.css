@@ -1,5 +1,5 @@
 body {
-  background: #E3E3E3
+  background: #E3E3E3;
 }
 
 header {
@@ -10,7 +10,12 @@ header {
   }
 
 h1 {
-  text-indent: -9999px
+  text-indent: -9999px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 #menubar {
@@ -22,18 +27,22 @@ h1 {
 
 #buttonHjem {
   background: #FF1919;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonGalleri {
   background: #BC00A1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonTur {
   background: #6EF1FA;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonBestilling {
   background: #63FF89;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hjem {
@@ -74,10 +83,9 @@ nav ul li a:hover {
 }
 
 main {
-  background: rgba(83,80,76,0.3);
   width: 80%;
   display: block;
-  top: 10px;
+  top: 50px;
   margin: auto;
   position: relative;
 }
@@ -85,4 +93,44 @@ main {
 a {
   color: #FFF;
   text-decoration: none;
+}
+
+.contTxt {
+  margin-right: 10px;
+}
+
+.sContainer {
+  display: block;
+  width: 33%;
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mContainer {
+  display: block;
+  width: 33%;
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lContainer {
+  display: block;
+  width: 66%;
+  height: 400px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.xlContainer {
+  display: block;
+  width: 33%;
+  height: 200px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#snoscooterImg {
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  background: url(bilder/snoscootermini.jpg);
+  float: left;
 }
