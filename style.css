@@ -83,11 +83,12 @@ nav ul li a:hover {
 }
 
 main {
-  width: 80%;
+  width: 1200px;
   display: block;
   top: 50px;
   margin: auto;
   position: relative;
+  background: #8F0505;
 }
 
 a {
@@ -100,63 +101,80 @@ a {
 }
 
 .sContainer {
+  background: #FFFFFF;
   display: block;
   width: 30%;
   height: 200px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+  margin-left: 3%
 }
 
 .mContainer {
+  background: #FFFFFF;
   display: block;
   width: 47%;
   height: 200px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .lContainer {
+  background: #FFFFFF;
   display: block;
   width: 63%;
   height: 400px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .xlContainer {
+  background: #FFFFFF;
   display: block;
   width: 100%;
   height: 200px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .sBigContainer {
+  background: #FFFFFF;
   display: block;
   width: 30%;
   height: 450px;
   margin-top: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .mBigContainer {
+  background: #FFFFFF;
   display: block;
   width: 47%;
   height: 450px;
   margin-top: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .lBigContainer {
+  background: #FFFFFF;
   display: block;
   width: 63%;
   height: 450px;
   margin-top: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .xlBigContainer {
+  background: #FFFFFF;
   display: block;
   width: 100%;
   height: 450px;
   margin-top: 50px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 #snoscooterImg {
