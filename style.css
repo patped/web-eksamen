@@ -131,7 +131,7 @@ img {
 }
 
 .bokstekst1{
-  bottom: 616px;
+  top: 30px;
   width: 564px;
   color: #e7e7e7;
   font-family: proxima-nova black, sans-serif;
@@ -142,50 +142,40 @@ img {
 
 .container3{
   height: 640px;
-  width: 81px;
+  width: 640px;
   margin: auto;
   left: 448px;
   bottom: 661px;
-  background-image: url("bilder/.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.container4{
+  height: 640px;
+  width: 640px;
   position: relative;
-}
-
-
-.boks1 {
-	height: 640px;
-	width: 640px;
-	
-}
-
-p.boksp1{
-	
+  top: 656px;
 }
 
 .dog{
-	left: 640px;
-	bottom: 1301px;
-	height: 330px;
-	width: 330px;
+	height: 320px;
+	width: 320px;
+  bottom: 5px;
 	background-image: url("bilder/dog.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	position: relative;
-	filter: alpha(opacity=100);
-	float: left;
+  position: relative;
+	float: right;
 }
 
 .bird {
   left: 640px;
   bottom: 1301px;
-  height: 330px;
-  width: 308px;
+  height: 320px;
+  width: 320px;
   background-image: url("bilder/bird.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  float: left;
+  float: right;
 }
 
 .birdfont{
@@ -198,14 +188,19 @@ p.boksp1{
   top: 8px;
 }
 
+.container5{
+  position: relative;
+  bottom: 965px;
+  right: 3px;
+
+}
+
 .women {
-  top: 250px;
-  height: 310px;
+  height: 320px;
   width: 637px;
   background-image: url("bilder/women.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   float: right;
 }
 
@@ -220,7 +215,7 @@ p.boksp1{
   position: relative;
   display: cover;
 }
-
+/*
 .container4 {
   background-color: #e2e2e2;
   height: 225px;
@@ -236,45 +231,29 @@ p.boksp1{
   font-weight: 900;
   position: relative;
   top: 40px;
+  right: 299px;
 }
 
 
-p.textboks2{
-	left: 640px;
-	bottom: 732px;
-	height: 330px;
-	background: #FFF;
-	opacity: 0;
-	
+.container5{
+  height: 790px;
+  width: 640px;
+  margin: auto;
+  position: relative;
+  bottom: 467px;
+  right: 325px;
+  float:left;
 }
 
-.boks2:hover .textboks2{
-	cursor: pointer;
-	color: white;
-	background-color: rgba(0,0,0,0.65);
-	opacity: 0.6; 
-	-webkit-transition: all 0.45s ease-in-out;
-	-moz-transition: all 0.45s ease-in-out;
-	-o-transition: all 0.45s ease-in-out;
-	-ms-transition: all 0.45s ease-in-out;
-	transition: all 0.45s ease-in-out;
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;	
-
+.container6{
+  height: 790px;
+  width: 640px;
+  margin: auto;
+  position: relative;
+  bottom: 467px;
+  right: 325px;
+  float:right;
 }
-
-
-
-
-
-
-
-
-
-
 
 .hovereffect1 {
   width: 844px;
@@ -290,7 +269,7 @@ p.textboks2{
   right: 313px;
 }
 
-.hovereffect1 .overlay {
+.hovereffect1 .hovertext1 {
   width: 844px;
   height: 329px;
   position: absolute;
@@ -323,7 +302,7 @@ p.textboks2{
   bottom: 140px;
 }
 
-.hovereffect1 .overlay:before {
+.hovereffect1 .hovertext1:before {
   position: absolute;;
   top: 20px;
   right: 115px;
@@ -356,13 +335,15 @@ p.textboks2{
   transform: translate3d(0,0,0);
 }
 
-.hovereffect1:hover .overlay:before,
+.hovereffect1:hover .hovertext1:before,
 .hovereffect1:hover a, .hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+-----------------
 
 .hovereffect2 {
   width: 439px;
@@ -372,8 +353,6 @@ p.textboks2{
   position: relative;
   text-align: center;
   cursor: default;
-  left: 844px;
-  bottom: 519px;
 }
 
 .hovereffect2 .overlay {
@@ -537,3 +516,4 @@ p.textboks2{
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+*/
