@@ -84,7 +84,6 @@ nav ul li a:hover {
 
 main {
   width: 1200px;
-  display: block;
   top: 50px;
   margin: auto;
   position: relative;
@@ -97,6 +96,27 @@ a {
 
 .contTxt {
   margin-right: 10px;
+}
+
+.wrapper {
+  width: 1200px;
+  background: yellow;
+}
+
+.wrapper:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.element {
+  width: 380px;
+  height: 200px;
+  background: blue;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sContainer {
