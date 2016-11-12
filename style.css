@@ -77,74 +77,95 @@ img {
 	width: 100%;
 }
 
-p {
-	color: black;
-}
 
 .container1{
-	height: 250px;
-	margin: auto;
-	background-image: url("bilder/h1font.png");
-	background-repeat: no-repeat;
-	display: cover;
+  background-color: #e2e2e2;
+  height: 197px;
 	position: relative;
-	bottom: 10px;
+  bottom: 5px;
+  padding-bottom: 50px;
 }
 
 
-.starfont{
+.inspirert{
 	padding-top: 90px;
-	font-family: proxima-nova, sans-serif;
+	font-family: proxima-nova black, sans-serif;
 	font-style: normal;
-	font-size: 32px;
+	font-size: 90px;
 	font-weight: 900;
 	text-align: center;
-	
+  position: relative;
+  bottom: 43px;
 }
 
+.drom{
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  bottom: 42px;
+}
 
 .linktekst{
+  font-size: 20px;
 	font-family: proxima-nova, sans-serif;
 	text-align: center;
-	padding-top: 15px;
-	font-size: 20px;
+	position: relative;
+	bottom: 30px;
 }
 
 
 .container2{
-	height: 150px;
+	height: 640px;
+  width: 640px;
 	margin: auto;
-	background-image: url("bilder/h1font.png");
-	background-repeat: no-repeat;
-	display: cover;
-	position: relative;
+  background-image: url("bilder/mountain1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: cover;
+  position: relative;
+  bottom: 5px;
+  float:left;
+}
+
+.bokstekst1{
+  bottom: 616px;
+  width: 564px;
+  color: #e7e7e7;
+  font-family: proxima-nova black, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.container3{
+  height: 640px;
+  width: 81px;
+  margin: auto;
+  left: 448px;
+  bottom: 661px;
+  background-image: url("bilder/.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
 .boks1 {
 	height: 640px;
 	width: 640px;
-	background-image: url("bilder/mountain1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: cover;
-	position: relative;
-	bottom: 76px;
-	float:left;
+	
 }
 
 p.boksp1{
-	bottom: 693px;
-	width: 640px;
-	color: #e7e7e7;
-	font-weight: bold;
-	text-align: center;
-	position: relative;
+	
 }
 
-.boks2{
+.dog{
 	left: 640px;
-	bottom: 732px;
+	bottom: 1301px;
 	height: 330px;
 	width: 330px;
 	background-image: url("bilder/dog.jpeg");
@@ -155,6 +176,67 @@ p.boksp1{
 	float: left;
 }
 
+.bird {
+  left: 640px;
+  bottom: 1301px;
+  height: 330px;
+  width: 308px;
+  background-image: url("bilder/bird.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  float: left;
+}
+
+.birdfont{
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 8px;
+}
+
+.women {
+  top: 250px;
+  height: 310px;
+  width: 637px;
+  background-image: url("bilder/women.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  float: right;
+}
+
+.textnordlys{
+  top: 277px;
+  right: 241px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  display: cover;
+}
+
+.container4 {
+  background-color: #e2e2e2;
+  height: 225px;
+  position: relative;
+  bottom: 661px;
+  text-align: center;
+}
+
+.brace{
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 900;
+  position: relative;
+  top: 40px;
+}
 
 
 p.textboks2{
@@ -184,68 +266,15 @@ p.textboks2{
 
 }
 
-.bokstekst2 {
-	width: 300px;
-	margin-top: 25px;
-	padding-right: 25px;
-	float: right;
-}
 
-.boks3 {
-	left: 310px;
-	bottom: 429px;
-	height: 337px;
-	width: 640px;
-	background-image: url("bilder/women.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	float: left;
-}
 
-.bokstekst3 {
-	left: 970px;
-	bottom: 1069px;
-	height: 303px;
-	width: 311px;
-	background-image: url("bilder/bird.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	float: left;
-}
 
-.birdfont{
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-	position: relative;
-	display: cover;
-}
 
-.snowfont{
-	right: 395px;
-	top: 487px;
-	font-family: proxima-nova, sans-serif;
-	font-style: normal;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	position: relative;
-	display: cover;
-}
 
-.container3{
-	height: 150px;
-	margin: auto;
-	background-image: url("bilder/embrace.png");
-	background-repeat: no-repeat;
-	display: cover;
-	position: relative;
-	bottom: 68px;
-}
+
+
+
+
 
 .hovereffect1 {
   width: 844px;
