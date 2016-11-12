@@ -62,7 +62,7 @@ h2 {
 }
 
 nav {
-  margin-left: 10%;
+  margin-left: 100px;
   width: 500px;
 }
 
@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 main {
-  width: 80%;
+  width: 1200px;
   display: block;
   top: 50px;
   margin: auto;
@@ -100,30 +100,99 @@ a {
 }
 
 .sContainer {
+  background: #FFFFFF;
   display: block;
-  width: 33%;
+  width: 380px;
   height: 200px;
+  margin-top: 15px;
+  margin-left: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .mContainer {
+  background: #FFFFFF;
   display: block;
-  width: 33%;
+  width: 577px;
   height: 200px;
+  margin-top: 15px;
+  margin-left: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .lContainer {
+  background: #FFFFFF;
   display: block;
-  width: 66%;
-  height: 400px;
+  width: 775px;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .xlContainer {
+  background: #FFFFFF;
   display: block;
-  width: 33%;
+  width: 1170px;
   height: 200px;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+
+.sBigContainer {
+  background: #FFFFFF;
+  display: block;
+  width: 380px;
+  height: 415px;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+
+.mBigContainer {
+  background: #FFFFFF;
+  display: block;
+  width: 577px;
+  height: 415px;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+
+.lBigContainer {
+  background: #FFFFFF;
+  display: block;
+  width: 775px;
+  height: 450px;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+
+.xlBigContainer {
+  background: #FFFFFF;
+  display: block;
+  width: 1170px;
+  height: 450px;
+  margin-top: 15px;
+  margin-left: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
+}
+
+.articleContainer {
+  background: #FFFFFF;
+  display: block;
+  width: 1170px;
+  margin-top: 15px;
+  margin-left: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
