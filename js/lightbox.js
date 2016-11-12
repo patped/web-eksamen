@@ -117,8 +117,12 @@
       bottom: parseInt(this.$image.css('border-bottom-width'), 10),
       left: parseInt(this.$image.css('border-left-width'), 10)
     };
-
     // Attach event handlers to the newly minted DOM elements
+    this.$nav.hide().on('click', function() {
+      self.end();
+      return false;
+    });
+
     this.$overlay.hide().on('click', function() {
       self.end();
       return false;
