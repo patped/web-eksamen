@@ -253,51 +253,47 @@ img {
 }
 
 .turcontainer2{
-  height: 360px;
-  width: 480px;
+  background-image: url(bilder/dog2ny.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 852px;
+  width: auto;
   position: relative;
   display: block;
 
-
 }
 
 
+
+
 /*----------------------*/
-/******turcontainer2*****/
+/******turcontainer3*****/
 /*----------------------*/
 
-.a {
-  width:460px; 
-  height:276px;
-  overflow:hidden;
-  background-image:url(http://static.guim.co.uk/sys-images/MONEY/Pix/pictures/2013/1/11/1357903674323/Orlando-the-ginger-cat-008.jpg);
-  position:absolute;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  box-shadow:0 0 10px 1px #000
-}   
-.b {
-  width:0; 
-  height:276px;
-  overflow:hidden;
-  margin-left:-50px;
-  transform:skew(-20deg);
-  transition:width 1s ease;
-}   
-.a:hover .b {
-  width:574px;
+.turcontainer3{
+
+  height: 768px;
+  width: 826px;
+  bottom: 360px;
+  position: relative;
+  display: block;
+  float: right;
 }
-.c {
-  width:574px; 
-  height:276px;
-  transform:skew(20deg);
-  margin-left:-64px;
-  background-image:url(http://static.guim.co.uk/sys-images/Guardian/About/General/2013/1/9/1357733496816/RUSSIA-ANIMALS-PETS-CAT-010.jpg);
-  background-position:114px 0;
-}   
+
+.turcontainer2tekst{
+  width: 1000px;
+  padding-top: 119px;
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+
+
+.
 /*
 
 .container7{
