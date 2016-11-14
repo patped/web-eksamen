@@ -105,18 +105,8 @@ a {
 
 .wrapper:after {
   display: table;
-  content: " ";
+  content: "";
   clear: both;
-}
-
-.element {
-  width: 380px;
-  height: 200px;
-  background: blue;
-  float: left;
-  margin-top: 15px;
-  margin-left: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sContainer {
