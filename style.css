@@ -14,13 +14,11 @@ h1 {
 }
 
 h2 {
-  margin-top: 15px;
   font-size: 24px;
   font-weight: bold;
 }
 
 p {
-  margin-top: 15px;
   font-size: 16px;
 }
 
@@ -103,7 +101,6 @@ main {
 
 .wrapper {
   width: 1200px;
-  background: yellow;
 }
 
 .wrapper:after {
@@ -114,99 +111,100 @@ main {
 
 .sContainer {
   background: #FFFFFF;
-  display: block;
-  width: 380px;
+  width: 365px;
   height: 200px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .mContainer {
   background: #FFFFFF;
-  display: block;
   width: 577px;
-  height: 200px;
+  height: 175px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .lContainer {
   background: #FFFFFF;
-  display: block;
   width: 775px;
-  height: 200px;
+  height: 175px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .xlContainer {
   background: #FFFFFF;
-  display: block;
   width: 1170px;
-  height: 200px;
+  height: 175px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .sBigContainer {
   background: #FFFFFF;
-  display: block;
-  width: 380px;
+  width: 365px;
   height: 415px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .mBigContainer {
   background: #FFFFFF;
-  display: block;
   width: 577px;
   height: 415px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .lBigContainer {
   background: #FFFFFF;
-  display: block;
   width: 775px;
   height: 450px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .xlBigContainer {
   background: #FFFFFF;
-  display: block;
   width: 1170px;
   height: 450px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
 .articleContainer {
   background: #FFFFFF;
-  display: block;
   width: 1170px;
   margin-top: 15px;
   margin-left: 15px;
+  padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  float: left;
 }
 
 .faktaContainer {
@@ -214,7 +212,7 @@ main {
 }
 
 #sSnoscooterImg {
-  margin: 15px;
+  margin-right: 15px;
   width: 227px;
   height: 170px;
   background: url(bilder/ssnoscooter.jpg);
@@ -222,7 +220,6 @@ main {
 }
 
 #mSnoscooterImg {
-  margin: 15px;
   width: 560px;
   height: 420px;
   background: url(bilder/msnoscooter.jpg);
