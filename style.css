@@ -16,7 +16,7 @@ nav {
 	width: 100%;
 	height:55px;
 	background: rgba(0,0,0,0.7);
-	margin:0;
+	margin:auto;
 }
 nav ul li {
 	display:inline-block;
@@ -72,23 +72,23 @@ table, tr, td{
 body {
 background-color: white;
 }
-
-img {
-	width: 100%;
-}
-
-
-.container1{
-  background-color: #e2e2e2;
-  height: 197px;
-	position: relative;
-  bottom: 5px;
-  padding-bottom: 50px;
-}
-
+  
+/*----------------------*/
+/******inspirert*****/
+/*----------------------*/
 
 .inspirert{
-	padding-top: 90px;
+  background-color: #e2e2e2;
+  height: 130px;
+	position: relative;
+  bottom: 3px;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+
+.bli-inspirert{
+	padding-top: 17px;
 	font-family: proxima-nova black, sans-serif;
 	font-style: normal;
 	font-size: 90px;
@@ -117,19 +117,6 @@ img {
 }
 
 
-.container2{
-	height: 640px;
-  width: 640px;
-	margin: auto;
-  background-image: url("bilder/mountain1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: cover;
-  position: relative;
-  bottom: 5px;
-  float:left;
-}
-
 .bokstekst1{
   top: 30px;
   width: 564px;
@@ -151,31 +138,45 @@ img {
 .container4{
   height: 640px;
   width: 640px;
-  position: relative;
-  top: 656px;
 }
 
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+
+.container2 {
+  background-image: url("bilder/mountain1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 500px;
+  max-width: 50%;
+  float: left;
+}
+
+.dogbird {
+    width: 50%;
+    float: left;
+}  
+
 .dog{
-	height: 320px;
-	width: 320px;
-  bottom: 5px;
+	height: 250px;
+	width: 50%;
 	background-image: url("bilder/dog.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-  position: relative;
-	float: right;
+  float: left;
 }
 
 .bird {
-  left: 640px;
-  bottom: 1301px;
-  height: 320px;
-  width: 320px;
   background-image: url("bilder/bird.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  float: right;
+  width: 50%;
+  height: 250px;
+  float: left;
 }
 
 .birdfont{
@@ -189,30 +190,24 @@ img {
 }
 
 .container5{
-  position: relative;
-  bottom: 965px;
-  right: 3px;
 
 }
 
 .women {
-  height: 320px;
-  width: 637px;
   background-image: url("bilder/women.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  float: right;
+  float: left;
+  height: 250px;
+  width: 50%;
 }
 
 .textnordlys{
-  top: 277px;
-  right: 241px;
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  position: relative;
   display: cover;
 }
 
@@ -234,11 +229,33 @@ img {
   top: 40px;
 }
 
+/*----------------------*/
+/******turcontainer*****/
+/*----------------------*/
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/*----------------------*/
+/******turcontainer1*****/
+/*----------------------*/
+
+
 .turcontainer1{
-  height: 197px;
+  background-image: url(bilder/nord8ny.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  min-width: 480px;
+  margin: auto;
   position: relative;
   bottom: 5px;
   padding-bottom: 50px;
+  position: relative;
+  display: block;
+  object-fit: contain;
 }
 
 .turtekst1{
@@ -252,26 +269,70 @@ img {
   bottom: 43px;
 }
 
+/*----------------------*/
+/******turcontainer2*****/
+/*----------------------*/
+
 .turcontainer2{
   background-image: url(bilder/dog2ny.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  height: 852px;
-  width: auto;
+  background-size: cover;
+  width: 100%;
+  min-width: 480px;
+  height: 500px;
+  margin: auto;
+  bottom: 5px;
+  padding-bottom: 50px;
   position: relative;
   display: block;
-
+  object-fit: contain;
 }
 
+.turcontainer2tekst{
+  background: linear-gradient(to top, rgba(53, 45, 45, 1) 20%, rgba(255,255,255, 0) 80%);   
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 700px;
+  padding-top: 90px;
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  float: left;
+}
 
+.button{
+   font-family: proxima-nova black, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  border: 5px solid #352d2d;
+  padding: 15px 43px; 
+  background: rgba(83, 80, 76, 0.5);
+  display: inline;
+  position: relative;
+  top: 285px;
+  right: 495px;
+  float: left;
+  color: black;
+}
+
+a.button:hover {
+  background-color: #b7b7b7;
+  opacity:0.8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-transition: all 0.4s ease-i
+}
 
 
 /*----------------------*/
 /******turcontainer3*****/
 /*----------------------*/
 
-.turcontainer3{
 
+.turcontainer3{
   height: 768px;
   width: 826px;
   bottom: 360px;
@@ -280,20 +341,120 @@ img {
   float: right;
 }
 
-.turcontainer2tekst{
-  width: 1000px;
-  padding-top: 119px;
+.turcontainer3{
+  background-image: url(bilder/dogsledny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 480px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  bottom: 5px;
+  padding-bottom: 50px;
+  position: relative;
+  display: block;
+  object-fit: contain;
+}
+
+.turcontainer3tekst{
+  background: linear-gradient(to top, rgba(53, 45, 45, 1) 20%, rgba(255,255,255, 0) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 700px;
+  padding-top: 136px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
-  font-size: 90px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  float: right;
+}
+
+
+
+.button2 {
+  font-family: proxima-nova black, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  border: 5px solid #352d2d;
+  padding: 15px 43px; 
+  background: rgba(83, 80, 76, 0.5);
+  display: inline;
+  position: relative;
+  top: 260px;
+  left: 500px;
+  float: right;
+  color: black;
+}
+
+a.button2:hover {
+  background-color: #b7b7b7;
+  opacity:0.8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-transition: all 0.4s ease-i
+}
+
+/*----------------------*/
+/******turcontainer4*****/
+/*----------------------*/
+
+.turcontainer4{
+  clear: both;
+  background-image: url(bilder/tur1ny.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-width: 480px;
+  height: 500px;
+  margin: auto;
+  bottom: 5px;
+  padding-bottom: 50px;
+  position: relative;
+  display: block;
+  object-fit: contain;
+}
+
+.turcontainer4tekst{
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 700px;
+  padding-top: 90px;
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 64px;
   font-weight: 900;
   text-align: center;
   position: relative;
   float: left;
 }
 
+.button3{
+  font-family: proxima-nova black, sans-serif;
+  font-size: 28px;
+  text-align: center;
+  border: 5px solid #352d2d;
+  padding: 15px 43px; 
+  background: rgba(83, 80, 76, 0.5);
+  display: inline;
+  position: relative;
+  top: 285px;
+  right: 495px;
+  float: left;
+  color: black;
+}
 
-.
+a.button3:hover {
+  background-color: #b7b7b7;
+  opacity:0.8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-transition: all 0.4s ease-i
+}
+
 /*
 
 .container7{
