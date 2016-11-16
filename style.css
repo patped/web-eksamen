@@ -204,9 +204,30 @@ main {
   float: left;
 }
 
-.faktaContainer {
-
+.bestillingContainer {
+  background: #FFFFFF;
+  width: 368px;
+  padding: 45px 45px 45px 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
 }
+
+/*Bestilling*/
+#bestillingskjema {
+  margin: auto;
+}
+
+#bestillingskjema tr td {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+#beskjed {
+  border-width: 2px;
+  width: 270px;
+  height: 200px;
+}
+
 /*Bilder*/
 #sSnoscooterImg {
   margin-right: 15px;
@@ -246,5 +267,3 @@ main {
   background: url(bilder/thumbnails/nordland-nordlys3mini.jpg);
   float: left;
 }
-
-
