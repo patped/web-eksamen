@@ -18,48 +18,41 @@ h2 {
   font-weight: bold;
 }
 
+#headerGalleri{
+  
+  background: url(bilder/galleri-isbjorn.jpg);
+}
 #menubar {
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 6.5px;
+  padding-bottom: 17px;
   display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #0288D1;
+
 }
 
 #buttonHjem {
-  background: #FF1919;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonGalleri {
-  background: #BC00A1;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonTur {
-  background: #6EF1FA;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonBestilling {
-  background: #63FF89;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.hjem {
-  background: #B60000;
-}
 
-.galleri {
-  background: #7F006C;
-}
-
-.tur {
-  background: #00ADB8;
-}
-
-.bestilling {
-  background: #00CB31;
-}
 
 nav {
   margin-left: 100px;
@@ -76,6 +69,7 @@ nav ul li a {
   font-size: 24px;
   padding: 20px 5px 5px 5px;
   margin-left: 2px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav ul li a:hover {
