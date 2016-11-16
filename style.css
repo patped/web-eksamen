@@ -94,10 +94,7 @@ main {
   margin: auto;
   position: relative;
 }
-
-.contTxt {
-  margin-right: 10px;
-}
+/*Wrappers and containers*/
 
 .wrapper {
   width: 1200px;
@@ -210,7 +207,7 @@ main {
 .faktaContainer {
 
 }
-
+/*Bilder*/
 #sSnoscooterImg {
   margin-right: 15px;
   width: 227px;
@@ -225,3 +222,29 @@ main {
   background: url(bilder/msnoscooter.jpg);
   float: left;
 }
+
+#hunde-sledeImg {
+  margin-right: 15px;
+  width: 227px;
+  height: 150px;
+  background: url(bilder/thumbnails/hunde-slede.jpg);
+  float: left;
+}
+
+#dyrelivImg {
+  margin-right: 15px;
+  width: 227px;
+  height: 151px;
+  background: url(bilder/thumbnails/snørev.jpg);
+  float: left;
+}
+
+#nordlysraveImg {
+  margin-right: 15px;
+  width: 227px;
+  height: 127px;
+  background: url(bilder/thumbnails/nordland-nordlys3mini.jpg);
+  float: left;
+}
+
+
