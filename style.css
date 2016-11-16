@@ -26,6 +26,10 @@ p {
   font-size: 16px;
 }
 
+th {
+  font-weight: bold;
+}
+
 #menubar {
   width: 100%;
   padding-top: 20px;
