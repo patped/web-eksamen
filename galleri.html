@@ -14,8 +14,9 @@
 
 <body>
  <div id="menubar" class="galleri">
-    <nav>
-      <ul>
+   <nav>
+      <button id="show_menu">meny</button>
+      <ul id='manu_container'>
         <li><a id="buttonHjem" href="index.html">Home</a></li>
         <li><a id="buttonGalleri" href="galleri.html">Bilde Galleri</a></li>
         <li><a id="buttonTur" href="tur.html">Tur Info</a></li>
@@ -24,12 +25,14 @@
     </nav>
   </div>
 
+
   <header id="headerGalleri" >
     <h1>Svalbard Nordlys</h1>
   </header>
 
  
   <main>
+    <div class="galleriContainer">
     <div id="galleri">
 
 
@@ -75,13 +78,15 @@
         <figcaption>Valross</figcaption>
       </figure>
     </div>
-    
+    </div>
        
 
   </main>
 
   <script src="js/jquery-3.1.1.js"></script>
   <script src="js/lightbox.js"></script>
+  <script src="js/menu.js"></script>
+  
 
 </body>
 </html>

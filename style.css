@@ -19,6 +19,10 @@ h2 {
   font-weight: bold;
 }
 
+#show_menu {
+  display: none;
+
+}
 
 #headerGalleri {
   
@@ -80,11 +84,46 @@ nav ul li a:hover {
   padding: 20px 5px 15px 5px;
 }
 
+@media (max-width: 600px) {
+  nav #show_menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+
+  }
+  nav ul.active {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+  }
+}
+
+
 main {
-  width: 1200px;
   top: 50px;
   margin: auto;
   position: relative;
+}
+
+main {
+  width: 1030px;
+  top: 50px;
+  margin: auto;
+  position: relative;
+}
+
+@media (max-width: 1050px) {
+  main {
+    width: 690px;
+  }
+}
+
+@media (max-width: 710px) {
+  main {
+    width: 330px;
+  }
 }
 
 a {
@@ -105,6 +144,12 @@ a {
   content: "";
   clear: both;
 }
+
+.galleriContainer {
+  width: 1030
+}
+
+
 
 .sContainer {
   background: #FFFFFF;
@@ -230,3 +275,4 @@ a {
     float: left;
 }
    
+
