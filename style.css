@@ -45,7 +45,6 @@ th {
   background: #0288D1;
   position: fixed;
   z-index: 2;
-
 }
 
 #show_menu {
@@ -308,23 +307,23 @@ main {
   float: left;
 }
 
-#galleri  figcaption {
-    text-align: center;
-    font-family: Georgia, serif;
-    color: #333;
-    padding-top: 10px;
-  }
+#galleri figcaption {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #333;
+  padding-top: 10px;
+}
 
-  #galleri  figure {
-    width: 320px;
-    height: 210px;
-    text-align: center;
-    padding-top: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-    background:rgba(255, 255, 255, 0.6);
-    margin: 10px;
-    float: left;
+#galleri figure {
+  width: 320px;
+  height: 210px;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  background:rgba(255, 255, 255, 0.6);
+  margin: 10px;
+  float: left;
 }
 
 #dyrelivImg {
