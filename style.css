@@ -27,6 +27,11 @@ p {
   font-size: 16px;
 }
 
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
 th {
   font-weight: bold;
 }
@@ -111,21 +116,11 @@ nav ul li a:hover {
   }
 }
 
-main {
-  top: 50px;
-  margin: auto;
-  position: relative;
-}
 /*Wrappers and containers*/
 
 main {
   top: 50px;
   position: relative;
-}
-
-a {
-  color: #FFF;
-  text-decoration: none;
 }
 
 .contTxt {
@@ -261,6 +256,12 @@ a {
   margin: auto;
 }
 
+@media (max-width: 600px) {
+  .bestillingContainer {
+    width: 80vw;
+  }
+}
+
 /*Bestilling*/
 #bestillingskjema {
   margin: auto;
@@ -275,6 +276,12 @@ a {
   border-width: 2px;
   width: 270px;
   height: 200px;
+}
+
+@media (max-width: 600px) {
+  #beskjed {
+    width: 70vw;
+  }
 }
 
 /*Bilder*/
