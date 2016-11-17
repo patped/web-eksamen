@@ -7,6 +7,7 @@ header {
   height:400px;
   background: #6DFFFA;
   margin:0;
+  z-index: -1;
   }
 
 h1 {
@@ -18,6 +19,15 @@ h2 {
   font-weight: bold;
 }
 
+#show_menu {
+  display: none;
+
+}
+
+#headerGalleri {
+  
+  background: url(bilder/galleri-isbjorn.jpg);
+}
 h3 {
   font-weight: bold;
 }
@@ -33,45 +43,36 @@ th {
 #menubar {
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 6.5px;
+  padding-bottom: 17px;
   display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #0288D1;
+  position: fixed;
+  z-index: 2;
+
 }
 
 #buttonHjem {
-  background: #FF1919;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonGalleri {
-  background: #BC00A1;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonTur {
-  background: #6EF1FA;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #buttonBestilling {
-  background: #63FF89;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #039BE5;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.hjem {
-  background: #B60000;
-}
 
-.galleri {
-  background: #7F006C;
-}
-
-.tur {
-  background: #00ADB8;
-}
-
-.bestilling {
-  background: #00CB31;
-}
 
 nav {
   margin-left: 100px;
@@ -90,19 +91,64 @@ nav ul li a {
   font-size: 24px;
   padding: 20px 5px 5px 5px;
   margin-left: 2px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav ul li a:hover {
   padding: 20px 5px 15px 5px;
 }
 
+@media (max-width: 600px) {
+  nav #show_menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+
+  }
+  nav ul.active {
+    display: block;
+  }
+  nav ul li {
+    display: block;
+  }
+}
+
+
 main {
-  width: 1200px;
   top: 50px;
   margin: auto;
   position: relative;
 }
 /*Wrappers and containers*/
+
+main {
+  width: 1030px;
+  top: 50px;
+  margin: auto;
+  position: relative;
+}
+
+@media (max-width: 1050px) {
+  main {
+    width: 690px;
+  }
+}
+
+@media (max-width: 710px) {
+  main {
+    width: 330px;
+  }
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.contTxt {
+  margin-right: 10px;
+}
 
 .wrapper {
   width: 1200px;
@@ -113,6 +159,12 @@ main {
   content: "";
   clear: both;
 }
+
+.galleriContainer {
+  width: 1030
+}
+
+
 
 .sContainer {
   background: #FFFFFF;
@@ -258,6 +310,29 @@ main {
   height: 150px;
   background: url(bilder/thumbnails/hunde-slede.jpg);
   float: left;
+}
+
+#galleri  figcaption {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #333;
+    padding-top: 10px;
+  }
+
+  #galleri  figure {
+    width: 320px;
+    height: 210px;
+    text-align: center;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    background:rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    float: left;
+}
+   
+
+
 }
 
 #dyrelivImg {
