@@ -330,16 +330,12 @@ a {
     margin: 10px;
     float: left;
 }
-   
-
-
-}
 
 #dyrelivImg {
   margin-right: 15px;
   width: 227px;
   height: 151px;
-  background: url(bilder/thumbnails/snørev.jpg);
+  background: url(bilder/thumbnails/snorev.jpg);
   float: left;
 }
 
