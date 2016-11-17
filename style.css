@@ -77,9 +77,11 @@ background-color: white;
 /******inspirert*****/
 /*----------------------*/
 
+
 .inspirert{
   background-color: #e2e2e2;
   height: 130px;
+  width: 1024px;
 	position: relative;
   bottom: 3px;
   padding-bottom: 50px;
@@ -159,7 +161,7 @@ background-color: white;
 /******turcontainer*****/
 /*----------------------*/
 
-.container{
+.turcontainer{
   width: 1024px;
   margin: 0 auto;
 }
@@ -201,6 +203,15 @@ background-color: white;
 /*----------------------*/
 
 .turcontainer2{
+  height: 768px;
+  width: 1024px;
+  bottom: 360px;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.turcontainer2{
   background-image: url(bilder/dog2ny1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,7 +230,7 @@ background-color: white;
   background: linear-gradient(to top, rgba(198, 198, 198, 1) 20%, rgba(255,255,255, 0) 80%);   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 700px;
+  width: 900px;
   padding-top: 90px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
@@ -269,12 +280,12 @@ a.button:hover {
 }
 
 .turcontainer3{
-  background-image: url(bilder/dogsledny.jpg);
+  background-image: url(bilder/dogsledny1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   min-width: 480px;
-  height: 500px;
+  height: 722px;
   margin: auto;
   position: relative;
   bottom: 5px;
@@ -288,11 +299,11 @@ a.button:hover {
   background: linear-gradient(to top, rgba(53, 45, 45, 1) 20%, rgba(255,255,255, 0) 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 700px;
-  padding-top: 136px;
+  width: 900px;
+  padding-top: 100px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 900;
   text-align: center;
   position: relative;
@@ -306,12 +317,12 @@ a.button:hover {
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
-  padding: 15px 43px; 
+  padding: 25px 65px;  
   background: rgba(83, 80, 76, 0.5);
   display: inline;
   position: relative;
-  top: 260px;
-  left: 500px;
+  top: 360px;
+  left: 620px;
   float: right;
   color: black;
 }
@@ -330,12 +341,12 @@ a.button2:hover {
 
 .turcontainer4{
   clear: both;
-  background-image: url(bilder/tur1ny.jpg);
+  background-image: url(bilder/reise.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   min-width: 480px;
-  height: 500px;
+  height: 722px;
   margin: auto;
   bottom: 5px;
   padding-bottom: 50px;
@@ -348,11 +359,11 @@ a.button2:hover {
   background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  width: 700px;
-  padding-top: 90px;
+  width: 815px;
+  padding-top: 95px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 900;
   text-align: center;
   position: relative;
@@ -364,12 +375,12 @@ a.button2:hover {
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
-  padding: 15px 43px; 
+  padding: 25px 65px;  
   background: rgba(83, 80, 76, 0.5);
   display: inline;
   position: relative;
-  top: 285px;
-  right: 495px;
+  top: 325px;
+  right: 578px;
   float: left;
   color: black;
 }
