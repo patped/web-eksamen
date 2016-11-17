@@ -146,77 +146,6 @@ background-color: white;
 }
 
 
-.container2 {
-  background-image: url("bilder/mountain1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: contain;
-  height: 500px;
-  max-width: 50%;
-  float: left;
-}
-
-.dogbird {
-    width: 50%;
-    float: left;
-}  
-
-.dog{
-	height: 250px;
-	width: 50%;
-	background-image: url("bilder/dog.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-  float: left;
-}
-
-.bird {
-  background-image: url("bilder/bird.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%;
-  height: 250px;
-  float: left;
-}
-
-.birdfont{
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  position: relative;
-  top: 8px;
-}
-
-
-.women {
-  background-image: url("bilder/women.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: left;
-  height: 250px;
-  width: 50%;
-}
-
-.textnordlys{
-  font-family: proxima-nova, sans-serif;
-  font-style: normal;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  display: cover;
-}
-
-.container6 {
-  background-color: #e2e2e2;
-  height: 225px;
-  position: relative;
-  bottom: 661px;
-  text-align: center;
-}
-/* Sjekk ut hvorfor teksten ikke er i midten*/
-
 .brace{
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
@@ -272,12 +201,12 @@ background-color: white;
 /*----------------------*/
 
 .turcontainer2{
-  background-image: url(bilder/dog2ny.jpg);
+  background-image: url(bilder/dog2ny1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   min-width: 480px;
-  height: 500px;
+  height: 722px;
   margin: auto;
   bottom: 5px;
   padding-bottom: 50px;
@@ -287,14 +216,14 @@ background-color: white;
 }
 
 .turcontainer2tekst{
-  background: linear-gradient(to top, rgba(53, 45, 45, 1) 20%, rgba(255,255,255, 0) 80%);   
+  background: linear-gradient(to top, rgba(198, 198, 198, 1) 20%, rgba(255,255,255, 0) 80%);   
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: 700px;
   padding-top: 90px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
-  font-size: 50px;
+  font-size: 65px;
   font-weight: 900;
   text-align: center;
   position: relative;
@@ -306,12 +235,12 @@ background-color: white;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
-  padding: 15px 43px; 
+  padding: 25px 65px; 
   background: rgba(83, 80, 76, 0.5);
   display: inline;
   position: relative;
-  top: 285px;
-  right: 495px;
+  top: 330px;
+  right: 614px;
   float: left;
   color: black;
 }
