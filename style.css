@@ -72,30 +72,92 @@ table, tr, td{
 body {
 background-color: white;
 }
+
+
+
+/*----------------------*/
+/******turcontainer*****/
+/*----------------------*/
+
+.turcontainer{
+  /*width: 1024px;*/
+  margin: 0 auto;
+}
+
+/*----------------------*/
+/******turcontainer1*****/
+/*----------------------*/
+
+
+.turcontainer1{
+  background-image: url(bilder/hoved.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 652px;
+  min-width: 480px;
+  margin: auto;
+  position: relative;
+  bottom: 5px;
+  padding-bottom: 50px;
+  position: relative;
+  display: block;
+  object-fit: contain;
+}
+
+.turtekst1{
+  padding-top: 120px;
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  bottom: 43px;
+}
+
+/*--------------------------*/
+/*******mapcontainer********/
+/*-------------------------*/
+
+
+.mapcontainer{
+  background-image: url(bilder/map.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-width: 480px;
+  height: 722px;
+  margin: auto;
+  bottom: 5px;
+  padding-bottom: 50px;
+  position: relative;
+  display: block;
+  object-fit: contain;
+}
   
 /*----------------------*/
-/******inspirert*****/
+/*******inspirert********/
 /*----------------------*/
 
 
 .inspirert{
   background-color: #e2e2e2;
   height: 130px;
-  width: 1024px;
-	position: relative;
-  bottom: 3px;
+  position: relative;
+  bottom: 5px;
   padding-bottom: 50px;
   padding-top: 60px;
 }
 
 
 .bli-inspirert{
-	padding-top: 17px;
-	font-family: proxima-nova black, sans-serif;
-	font-style: normal;
-	font-size: 90px;
-	font-weight: 900;
-	text-align: center;
+  padding-top: 17px;
+  font-family: proxima-nova black, sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  font-weight: 900;
+  text-align: center;
   position: relative;
   bottom: 43px;
 }
@@ -112,10 +174,10 @@ background-color: white;
 
 .linktekst{
   font-size: 20px;
-	font-family: proxima-nova, sans-serif;
-	text-align: center;
-	position: relative;
-	bottom: 30px;
+  font-family: proxima-nova, sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
 }
 
 
@@ -158,47 +220,6 @@ background-color: white;
 }
 
 /*----------------------*/
-/******turcontainer*****/
-/*----------------------*/
-
-.turcontainer{
-  width: 1024px;
-  margin: 0 auto;
-}
-
-/*----------------------*/
-/******turcontainer1*****/
-/*----------------------*/
-
-
-.turcontainer1{
-  background-image: url(bilder/nordhoved.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 652px;
-  min-width: 480px;
-  margin: auto;
-  position: relative;
-  bottom: 5px;
-  padding-bottom: 50px;
-  position: relative;
-  display: block;
-  object-fit: contain;
-}
-
-.turtekst1{
-  padding-top: 120px;
-  font-family: proxima-nova black, sans-serif;
-  font-style: normal;
-  font-size: 90px;
-  font-weight: 900;
-  text-align: center;
-  position: relative;
-  bottom: 43px;
-}
-
-/*----------------------*/
 /******turcontainer2*****/
 /*----------------------*/
 
@@ -212,7 +233,7 @@ background-color: white;
 }
 
 .turcontainer2{
-  background-image: url(bilder/dog2ny1.jpg);
+  background-image: url(bilder/dog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -280,7 +301,7 @@ a.button:hover {
 }
 
 .turcontainer3{
-  background-image: url(bilder/dogsledny1.jpg);
+  background-image: url(bilder/sled.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
