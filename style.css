@@ -109,6 +109,7 @@ nav ul li a:hover {
   nav ul li {
     display: block;
   }
+}
 
 main {
   top: 50px;
@@ -118,22 +119,8 @@ main {
 /*Wrappers and containers*/
 
 main {
-  width: 1030px;
   top: 50px;
-  margin: auto;
   position: relative;
-}
-
-@media (max-width: 1050px) {
-  main {
-    width: 690px;
-  }
-}
-
-@media (max-width: 710px) {
-  main {
-    width: 330px;
-  }
 }
 
 a {
@@ -145,10 +132,6 @@ a {
   margin-right: 10px;
 }
 
-.wrapper {
-  width: 1200px;
-}
-
 .wrapper:after {
   display: table;
   content: "";
@@ -156,10 +139,21 @@ a {
 }
 
 .galleriContainer {
-  width: 1030
+  width: 1030px;
+  margin: auto;
 }
 
+@media (max-width: 1050px) {
+  .galleriContainer {
+    width: 690px;
+  }
+}
 
+@media (max-width: 710px) {
+  .galleriContainer {
+    width: 330px;
+  }
+}
 
 .sContainer {
   background: #FFFFFF;
