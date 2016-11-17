@@ -8,7 +8,7 @@ header {
   background: #6DFFFA;
   margin:0;
   z-index: -1;
-  }
+}
 
 h1 {
   text-indent: -9999px;
@@ -19,21 +19,17 @@ h2 {
   font-weight: bold;
 }
 
-#show_menu {
-  display: none;
-
-}
-
-#headerGalleri {
-  
-  background: url(bilder/galleri-isbjorn.jpg);
-}
 h3 {
   font-weight: bold;
 }
 
 p {
   font-size: 16px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
 }
 
 th {
@@ -49,7 +45,14 @@ th {
   background: #0288D1;
   position: fixed;
   z-index: 2;
+}
 
+#show_menu {
+  display: none;
+}
+
+#headerGalleri {
+  background: url(bilder/galleri-isbjorn.jpg);
 }
 
 #buttonHjem {
@@ -71,8 +74,6 @@ th {
   background: #039BE5;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 
 nav {
   margin-left: 100px;
@@ -114,44 +115,15 @@ nav ul li a:hover {
   }
 }
 
-
-main {
-  top: 50px;
-  margin: auto;
-  position: relative;
-}
 /*Wrappers and containers*/
 
 main {
-  width: 1030px;
   top: 50px;
-  margin: auto;
   position: relative;
-}
-
-@media (max-width: 1050px) {
-  main {
-    width: 690px;
-  }
-}
-
-@media (max-width: 710px) {
-  main {
-    width: 330px;
-  }
-}
-
-a {
-  color: #FFF;
-  text-decoration: none;
 }
 
 .contTxt {
   margin-right: 10px;
-}
-
-.wrapper {
-  width: 1200px;
 }
 
 .wrapper:after {
@@ -161,7 +133,20 @@ a {
 }
 
 .galleriContainer {
-  width: 1030
+  width: 1030px;
+  margin: auto;
+}
+
+@media (max-width: 1050px) {
+  .galleriContainer {
+    width: 690px;
+  }
+}
+
+@media (max-width: 710px) {
+  .galleriContainer {
+    width: 330px;
+  }
 }
 
 .sContainer {
@@ -270,6 +255,12 @@ a {
   margin: auto;
 }
 
+@media (max-width: 600px) {
+  .bestillingContainer {
+    width: 80vw;
+  }
+}
+
 /*Bestilling*/
 #bestillingskjema {
   margin: auto;
@@ -284,6 +275,12 @@ a {
   border-width: 2px;
   width: 270px;
   height: 200px;
+}
+
+@media (max-width: 600px) {
+  #beskjed {
+    width: 70vw;
+  }
 }
 
 /*Bilder*/
@@ -310,23 +307,23 @@ a {
   float: left;
 }
 
-#galleri  figcaption {
-    text-align: center;
-    font-family: Georgia, serif;
-    color: #333;
-    padding-top: 10px;
-  }
+#galleri figcaption {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #333;
+  padding-top: 10px;
+}
 
-  #galleri  figure {
-    width: 320px;
-    height: 210px;
-    text-align: center;
-    padding-top: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
-    background:rgba(255, 255, 255, 0.6);
-    margin: 10px;
-    float: left;
+#galleri figure {
+  width: 320px;
+  height: 210px;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  background:rgba(255, 255, 255, 0.6);
+  margin: 10px;
+  float: left;
 }
 
 #dyrelivImg {
