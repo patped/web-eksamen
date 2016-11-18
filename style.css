@@ -99,7 +99,7 @@ nav ul li a:hover {
     text-decoration: none;
     font-size: 24px;
     padding: 20px 5px 5px 5px;
-    margin-left: 2px;
+    margin-left: 0px;
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: #039BE5;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -112,18 +112,31 @@ nav ul li a:hover {
   }
   nav ul.active {
     display: block;
+    
+
   }
   nav ul li {
     display: list-item;
     margin-top: 0px;
+
   }
 
   nav ul li a {
-    display: block;
-    padding: 5px 5px 5px 5px;
-    width: 140px;
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  padding: 5px 5px 5px 5px;
+  width: 140px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 0px;
   }
+
+  #manu_container {
+    width: 150px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+
+
+  }
+  
 
   nav ul li a:hover {
     padding: 5px 5px 5px 5px;
@@ -137,9 +150,7 @@ main {
   position: relative;
 }
 
-.dropDownBestilling{
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 .contTxt {
   margin-right: 10px;
 }
