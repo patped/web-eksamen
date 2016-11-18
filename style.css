@@ -108,24 +108,21 @@ nav ul li a:hover {
 
   nav ul {
     display: none;
-
   }
   nav ul.active {
-    display: block;
-    
-
+    display: block; 
   }
+
   nav ul li {
     display: list-item;
     margin-top: 0px;
-
   }
 
   nav ul li a {
-  display: block;
-  padding: 5px 5px 5px 5px;
-  width: 140px;
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    padding: 5px 5px 5px 5px;
+    width: 140px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
     margin-left: 0px;
   }
 
@@ -133,8 +130,6 @@ nav ul li a:hover {
     width: 150px;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 10px;
-
-
   }
   
 
