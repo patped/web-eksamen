@@ -157,14 +157,43 @@ main {
   }
 }
 
+.turContainer {
+  width: 1030px;
+  margin: auto;
+}
+
+@media (max-width: 1130px) {
+  .turContainer {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .turContainer {
+    width: 95vw;
+  }
+}
+
 .articleContainer {
   background: #FFFFFF;
-  width: 1170px;
+  width: 1030px;
   margin-top: 15px;
-  margin-left: 15px;
   padding: 15px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   float: left;
+}
+
+@media (max-width: 1130px) {
+  .articleContainer {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .articleContainer {
+    width: 90vw;
+    padding: 5px;
+  }
 }
 
 .bestillingContainer {
@@ -220,6 +249,31 @@ main {
   float: left;
 }
 
+#dyrelivImg {
+  margin-right: 15px;
+  width: 227px;
+  height: 151px;
+  background: url(bilder/thumbnails/snorev.jpg);
+  float: left;
+}
+
+#nordlysraveImg {
+  margin-right: 15px;
+  width: 227px;
+  height: 127px;
+  background: url(bilder/thumbnails/nordland-nordlys3mini.jpg);
+  float: left;
+}
+
+@media (max-width: 600px) {
+  #sSnoscooterImg,
+  #hunde-sledeImg,
+  #dyrelivImg,
+  #nordlysraveImg {
+    float: none;
+  }
+}
+
 #galleri figcaption {
   text-align: center;
   font-family: Georgia, serif;
@@ -236,21 +290,5 @@ main {
   position: relative;
   background:rgba(255, 255, 255, 0.6);
   margin: 10px;
-  float: left;
-}
-
-#dyrelivImg {
-  margin-right: 15px;
-  width: 227px;
-  height: 151px;
-  background: url(bilder/thumbnails/snorev.jpg);
-  float: left;
-}
-
-#nordlysraveImg {
-  margin-right: 15px;
-  width: 227px;
-  height: 127px;
-  background: url(bilder/thumbnails/nordland-nordlys3mini.jpg);
   float: left;
 }
