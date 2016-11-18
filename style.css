@@ -6,8 +6,8 @@ header {
   width: 100%;
   height:400px;
   background: #6DFFFA;
-  margin:0;
-  z-index: -1;
+  top: 80px;
+  position: relative;
 }
 
 @media (max-width: 600px) {
@@ -126,7 +126,7 @@ nav ul li a:hover {
 /*Wrappers and containers*/
 
 main {
-  top: 50px;
+  top: 130px;
   position: relative;
 }
 
