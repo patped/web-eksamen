@@ -62,6 +62,9 @@ th {
   background: url(bilder/galleri-isbjorn.jpg);
 }
 
+#activeButton {
+  background: #0288D1;
+}
 
 nav {
   margin-left: 100px;
