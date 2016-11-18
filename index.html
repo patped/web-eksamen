@@ -14,28 +14,31 @@
 		</style>
 	</head>
 
-	<body>
-		 <div id="menubar" class="galleri">
-   <nav>
-      <button id="show_menu">meny</button>
-      <ul id='manu_container'>
-        <li><a id="buttonHjem" href="index.html">Home</a></li>
-        <li><a id="buttonGalleri" href="galleri.html">Bilde Galleri</a></li>
-        <li><a id="buttonTur" href="tur.html">Tur Info</a></li>
-        <li><a id="buttonBestilling" href="bestilling.html">Bestilling</a></li>
-      </ul>
-    </nav>
-  </div>
+<body>
+	<div id="menubar" class="galleri">
+	   <nav>
+	      <button id="show_menu">meny</button>
+	      <ul id='manu_container'>
+	        <li><a id="buttonHjem" href="index.html">Home</a></li>
+	        <li><a id="buttonGalleri" href="galleri.html">Bilde Galleri</a></li>
+	        <li><a id="buttonTur" href="tur.html">Tur Info</a></li>
+	        <li><a id="buttonBestilling" href="bestilling.html">Bestilling</a></li>
+	      </ul>
+	    </nav>
+	</div>
 
-	<div class="turcontainer"> <!--Start av vanlig div-->
-		<div class="turcontainer1">
-			<h1 class="turcontainer2tekst text-center">VELKOMMEN TIL NORDLYSET</h1>
-		</div>
+	<main>
+		<div class="turcontainer"> <!--Start av vanlig div-->
+			<div class="turcontainer1">
+				<h1 class="turcontainer2tekst text-center">VELKOMMEN TIL NORDLYSET</h1>
+			</div>
+
 			<img class="mapcontainer" src="bilder/map.jpg">
 			<div class="inspirert">
 				<div class="inspirert-innhold">
 					<p class="bli-inspirert">BLI INSPIRERT</p>
 					<p class="drom">NORDLYS DRØMMER</p>
+					
 					<div class="linktekst">
 						<a href="tur.html">Opplevelser</a> |
 						<a href="">Nordlys Rekommenderte Reiser</a> |
@@ -44,29 +47,30 @@
 				</div>
 				
 				<div class="turcontainer2">
-					<div class="turcontainer2tekst">OPPLEV DET FANTASTISKE ARKTISKE DYRE LIVET</div>
-						<a class="button" href="#" onclick="return false;">
-							OPPDAG MER
-						</a>
-					</div>
-				</div>
-				<div class="turcontainer3">
-					<p class="turcontainer3tekst">NORDLAND HUNDE KJØRING</p>
-					
+					<p class="turcontainer2tekst">OPPLEV DET FANTASTISKE ARKTISKE DYRE LIVET</p>
 					<a class="button" href="#" onclick="return false;">
 						OPPDAG MER
 					</a>
 				</div>
-				<div class="turcontainer4">
-					<div class="turcontainer4tekst">ARKTISK TUR OPPLEVELSE</div>
-						<a class="button" href="#" onclick="return false;">
-							OPPDAG MER
-						</a>
-				</div>
-	</div><!---Slutt av vanlig div-->
+			</div>
+
+			<div class="turcontainer3">
+				<p class="turcontainer3tekst">NORDLAND HUNDE KJØRING</p>
+				
+				<a class="button" href="#" onclick="return false;">
+					OPPDAG MER
+				</a>
+			</div>
+			<div class="turcontainer4">
+				<div class="turcontainer4tekst">ARKTISK TUR OPPLEVELSE</div>
+				<a class="button" href="#" onclick="return false;">
+					OPPDAG MER
+				</a>
+			</div>
+		</div><!---Slutt av vanlig div-->
+	</main>
 </body>
 
-			
   <script src="js/jquery-3.1.1.js"></script>
   <script src="js/lightbox.js"></script>
   <script src="js/menu.js"></script>
