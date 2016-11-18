@@ -62,6 +62,9 @@ th {
   background: url(bilder/galleri-isbjorn.jpg);
 }
 
+#activeButton {
+  background: #0288D1;
+}
 
 nav {
   margin-left: 100px;
@@ -116,14 +119,10 @@ nav ul li a:hover {
   }
 
   nav ul li a {
-  display: block;
-  padding: 5px 5px 5px 5px;
-  width: 140px;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-
-  
-
+    display: block;
+    padding: 5px 5px 5px 5px;
+    width: 140px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   nav ul li a:hover {
@@ -139,7 +138,7 @@ main {
 }
 
 .dropDownBestilling{
-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contTxt {
   margin-right: 10px;
