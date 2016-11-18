@@ -302,5 +302,6 @@ main {
   position: relative;
   background:rgba(255, 255, 255, 0.6);
   margin: 10px;
+  border-radius: 7px;
   float: left;
 }
