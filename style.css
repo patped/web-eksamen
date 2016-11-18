@@ -112,10 +112,18 @@ nav ul li a:hover {
   }
   nav ul li {
     display: list-item;
+    margin-top: 0px;
   }
 
   nav ul li a {
+  display: block;
   padding: 5px 5px 5px 5px;
+  width: 140px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+  
+
   }
 
     nav ul li a:hover {
@@ -130,6 +138,9 @@ main {
   position: relative;
 }
 
+.dropDownBestilling{
+box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .contTxt {
   margin-right: 10px;
 }
