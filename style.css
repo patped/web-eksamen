@@ -10,6 +10,10 @@ header {
   z-index: -1;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
 .main_header{
   color: white;
 
@@ -365,17 +369,17 @@ main {
 .turcontainer1{
   background-image: url(bilder/hoved.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
-  height: 722px;
-  min-width: 480px;
+  height: 700px;
   margin: auto;
-  position: relative;
-  top: 88px;
-  padding-bottom: 50px;
-  position: relative;
   display: block;
-  object-fit: fill;
+}
+
+.turcontainer1 h1 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 48px
 }
 
 .turtekst1{
@@ -395,17 +399,7 @@ main {
 
 
 .mapcontainer{
-  background-image: url(bilder/map.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 100%;
-  min-width: 480px;
-  height: 722px;
-  bottom: 93px;
-  padding-bottom: 50px;
-  position: relative;
-  display: block;
-  object-fit: fill;
 }
   
 /*----------------------*/
@@ -415,13 +409,11 @@ main {
 
 .inspirert{
   background-color: #e2e2e2;
-  height: 130px;
-  position: relative;
-  bottom: 265px;
-  padding-bottom: 50px;
-  padding-top: 60px;
 }
 
+.inspirert-innhold {
+  padding: 35px 0 35px 0;
+}
 
 .bli-inspirert{
   padding-top: 17px;
@@ -431,7 +423,6 @@ main {
   font-weight: 900;
   text-align: center;
   position: relative;
-  bottom: 43px;
 }
 
 .drom{
@@ -440,16 +431,12 @@ main {
   font-size: 40px;
   font-weight: 900;
   text-align: center;
-  position: relative;
-  bottom: 42px;
 }
 
 .linktekst{
   font-size: 20px;
   font-family: proxima-nova, sans-serif;
   text-align: center;
-  position: relative;
-  bottom: 30px;
 }
 
 
@@ -496,12 +483,7 @@ main {
 /*----------------------*/
 
 .turcontainer2{
-  height: 768px;
-  width: 1024px;
-  bottom: 360px;
-  position: relative;
-  display: block;
-  float: left;
+  width: 100%;
 }
 
 .turcontainer2{
@@ -509,14 +491,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-width: 480px;
-  height: 722px;
-  margin: auto;
-  bottom: 5px;
-  padding-bottom: 50px;
-  position: relative;
-  display: block;
-  object-fit: contain;
+  height: 853px;
 }
 
 .turcontainer2tekst{
@@ -531,7 +506,6 @@ main {
   text-align: center;
   margin: auto;
   position: relative;
-  float: left;
 }
 
 .button{
@@ -542,11 +516,9 @@ main {
   padding: 25px 65px; 
   background: rgba(83, 80, 76, 0.5);
   display: inline;
-  position: relative;
-  top: 70px;
-  left: 345px;
-  float: left;
   color: black;
+  position: relative;
+  top: 43px;
 }
 
 a.button:hover {
@@ -564,12 +536,7 @@ a.button:hover {
 
 
 .turcontainer3{
-  height: 768px;
-  width: 826px;
-  bottom: 360px;
-  position: relative;
-  display: block;
-  float: right;
+  width: 100%;
 }
 
 .turcontainer3{
@@ -577,7 +544,6 @@ a.button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  min-width: 480px;
   height: 722px;
   margin: auto;
   position: relative;
@@ -600,27 +566,24 @@ a.button:hover {
   text-align: center;
   position: relative;
   margin: auto;
-  float: right;
 }
 
 
 
-.button2 {
+.button {
   font-family: proxima-nova black, sans-serif;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
   padding: 25px 65px;  
   background: rgba(83, 80, 76, 0.5);
-  display: inline;
-  position: relative;
-  top: 70px;
-  left: 345px;
-  float: left;
+  display: block;
   color: black;
+  margin: 0 auto;
+  width: 200px;
 }
 
-a.button2:hover {
+.button:hover {
   background-color: #b7b7b7;
   opacity:0.8;
   -webkit-border-radius: 5px;
@@ -638,7 +601,6 @@ a.button2:hover {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  min-width: 480px;
   height: 800px;
   margin: auto;
   bottom: 270px;
@@ -660,7 +622,6 @@ a.button2:hover {
   text-align: center;
   position: relative;
   margin: auto;
-  float: left;
 }
 
 .button3{
@@ -684,4 +645,26 @@ a.button3:hover {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-transition: all 0.4s ease-i
+}
+
+/*-------------------------------*/
+/******index-mobil-responsive*****/
+/*-------------------------------*/
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .turcontainer {
+    width: 100% !important;
+  }
+
+  .turcontainer1 {
+    height: 400px
+  }
+
+  .turcontainer4tekst, .turcontainer3tekst, .turcontainer2tekst, .bli-inspirert {
+    font-size: 48px;
+  }
+
+  .button {
+    margin: auto;
+  }
 }
