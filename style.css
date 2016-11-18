@@ -92,17 +92,17 @@ nav ul li a:hover {
 @media (max-width: 600px) {
   nav #show_menu {
     display: block;
-      color: #FFF;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 20px 5px 5px 5px;
-  margin-left: 2px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #039BE5;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 0px;
-
+    color: #FFF;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 20px 5px 5px 5px;
+    margin-left: 2px;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #039BE5;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0px;
   }
+
   nav ul {
     display: none;
 
@@ -115,10 +115,10 @@ nav ul li a:hover {
   }
 
   nav ul li a {
-  padding: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
   }
 
-    nav ul li a:hover {
+  nav ul li a:hover {
     padding: 5px 5px 5px 5px;
   }
 }
@@ -155,94 +155,6 @@ main {
   .galleriContainer {
     width: 330px;
   }
-}
-
-.sContainer {
-  background: #FFFFFF;
-  width: 365px;
-  height: 200px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.mContainer {
-  background: #FFFFFF;
-  width: 577px;
-  height: 175px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.lContainer {
-  background: #FFFFFF;
-  width: 775px;
-  height: 175px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.xlContainer {
-  background: #FFFFFF;
-  width: 1170px;
-  height: 175px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.sBigContainer {
-  background: #FFFFFF;
-  width: 365px;
-  height: 415px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.mBigContainer {
-  background: #FFFFFF;
-  width: 577px;
-  height: 415px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.lBigContainer {
-  background: #FFFFFF;
-  width: 775px;
-  height: 450px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
-}
-
-.xlBigContainer {
-  background: #FFFFFF;
-  width: 1170px;
-  height: 450px;
-  margin-top: 15px;
-  margin-left: 15px;
-  padding: 15px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  float: left;
 }
 
 .articleContainer {
@@ -297,13 +209,6 @@ main {
   width: 227px;
   height: 170px;
   background: url(bilder/ssnoscooter.jpg);
-  float: left;
-}
-
-#mSnoscooterImg {
-  width: 560px;
-  height: 420px;
-  background: url(bilder/msnoscooter.jpg);
   float: left;
 }
 
