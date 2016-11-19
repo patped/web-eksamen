@@ -165,6 +165,12 @@ footer {
   text-align: center;
 }
 
+@media {
+  footer {
+    height: auto;
+  }
+}
+
 /*Wrappers and containers*/
 
 main {
