@@ -70,6 +70,14 @@ th {
   background: url(bilder/galleri-isbjorn.jpg);
 }
 
+#headerTur {
+  background: url(bilder/turHeader.jpg);
+}
+
+#bestillingHeader {
+  background: url(bilder/bestillingHeader.jpg);
+}
+
 #activeButton {
   background: #0277BD;
 }
