@@ -23,7 +23,7 @@ header {
 .main_header{
   color: white;
 }
-  
+
 h1 {
   text-indent: -9999px;
 }
@@ -152,6 +152,17 @@ nav ul li a:hover {
   nav ul li a:hover {
     padding: 5px 5px 5px 5px;
   }
+}
+
+footer {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #0288D1;
+  height: 30px;
+  text-align: center;
 }
 
 /*Wrappers and containers*/
@@ -369,7 +380,7 @@ main {
 .mapcontainer{
   width: 100%;
 }
-  
+
 /*----------------------*/
 /*******inspirert********/
 /*----------------------*/
@@ -463,7 +474,7 @@ main {
 }
 
 .turcontainer2tekst{
-  background: linear-gradient(to top, rgba(198, 198, 198, 1) 20%, rgba(255,255,255, 0) 80%);   
+  background: linear-gradient(to top, rgba(198, 198, 198, 1) 20%, rgba(255,255,255, 0) 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-top: 90px;
@@ -477,11 +488,11 @@ main {
 }
 
 .button{
-   font-family: proxima-nova black, sans-serif;
+  font-family: proxima-nova black, sans-serif;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
-  padding: 25px 65px; 
+  padding: 25px 65px;
   background: rgba(83, 80, 76, 0.5);
   display: inline;
   color: black;
@@ -543,7 +554,7 @@ a.button:hover {
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
-  padding: 25px 65px;  
+  padding: 25px 65px;
   background: rgba(83, 80, 76, 0.5);
   display: block;
   color: black;
@@ -579,9 +590,8 @@ a.button:hover {
 }
 
 .turcontainer4tekst{
-  background: black;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
   padding-top: 95px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
@@ -597,7 +607,7 @@ a.button:hover {
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
-  padding: 25px 65px;  
+  padding: 25px 65px;
   background: rgba(83, 80, 76, 0.5);
   display: inline;
   position: relative;
