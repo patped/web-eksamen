@@ -312,6 +312,12 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: left;
 }
 
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/************************************************************INDEX-CSS***********************************************************/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
 /*----------------------*/
 /******turcontainer*****/
 /*----------------------*/
@@ -356,7 +362,6 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /*******mapcontainer********/
 /*-------------------------*/
 
-
 .mapcontainer{
   width: 100%;
 }
@@ -364,7 +369,6 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 /*----------------------*/
 /*******inspirert********/
 /*----------------------*/
-
 
 .inspirert{
   background-color: #e2e2e2;
@@ -396,45 +400,7 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: 20px;
   font-family: proxima-nova, sans-serif;
   text-align: center;
-}
-
-
-.bokstekst1{
-  top: 30px;
-  width: 564px;
-  color: #e7e7e7;
-  font-family: proxima-nova black, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  position: relative;
-}
-
-.container3{
-  height: 640px;
-  width: 640px;
-  margin: auto;
-  left: 448px;
-  bottom: 661px;
-}
-
-.container4{
-  height: 640px;
-  width: 640px;
-}
-
-.container{
-  width: 1024px;
-  margin: 0 auto;
-}
-
-
-.brace{
-  font-family: proxima-nova black, sans-serif;
-  font-style: normal;
-  font-size: 90px;
-  font-weight: 900;
-  position: relative;
-  top: 40px;
+  padding-bottom: 40px;
 }
 
 /*----------------------*/
@@ -454,10 +420,7 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .turcontainer2tekst{
-  background: linear-gradient(to top, rgba(198, 198, 198, 1) 20%, rgba(255,255,255, 0) 80%);   
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-top: 90px;
+  color: lightgray;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
   font-size: 65px;
@@ -465,10 +428,11 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin: auto;
   position: relative;
+  top: 40px;
 }
 
 .button{
-   font-family: proxima-nova black, sans-serif;
+  font-family: proxima-nova black, sans-serif;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
@@ -505,8 +469,6 @@ a.button:hover {
   width: 100%;
   height: 722px;
   margin: auto;
-  position: relative;
-  bottom: 270px;
   padding-bottom: 50px;
   position: relative;
   display: block;
@@ -514,9 +476,6 @@ a.button:hover {
 }
 
 .turcontainer3tekst{
-  background: linear-gradient(to top, rgba(53, 45, 45, 1) 20%, rgba(255,255,255, 0) 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   padding-top: 100px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
@@ -561,8 +520,7 @@ a.button:hover {
   background-repeat: no-repeat;
   width: 100%;
   height: 800px;
-  margin: auto;
-  bottom: 270px;
+  margin: auto;  
   padding-bottom: 50px;
   position: relative;
   display: block;
@@ -570,9 +528,6 @@ a.button:hover {
 }
 
 .turcontainer4tekst{
-  background: black;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   padding-top: 95px;
   font-family: proxima-nova black, sans-serif;
   font-style: normal;
@@ -610,12 +565,13 @@ a.button3:hover {
 /******index-mobil-responsive*****/
 /*-------------------------------*/
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) { 
   .turcontainer {
     width: 100% !important;
   }
 
   .turcontainer1 {
+    width: 100%;
     height: 400px
   }
 
