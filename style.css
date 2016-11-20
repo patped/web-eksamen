@@ -255,14 +255,6 @@ main {
 }
 
 /*Bestilling*/
-#bestillingskjema {
-  margin: auto;
-}
-
-#bestillingskjema tr td {
-  padding-left: 30px;
-  padding-top: 5px;
-}
 
 #beskjed {
   border-width: 2px;
@@ -541,7 +533,7 @@ a.button:hover {
   background-repeat: no-repeat;
   width: 100%;
   height: 800px;
-  margin: auto;  
+  margin: auto;
   padding-bottom: 50px;
   position: relative;
   display: block;
@@ -583,7 +575,7 @@ a.button3:hover {
 /******index-mobil-responsive*****/
 /*-------------------------------*/
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   .turcontainer {
     width: 100% !important;
   }
