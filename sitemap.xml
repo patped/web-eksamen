@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://itfag.usn.no/~162756/eksamen/</loc>
+  <lastmod>2016-11-20T17:07:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://itfag.usn.no/~162756/eksamen/index.html</loc>
+  <lastmod>2016-11-20T17:07:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://itfag.usn.no/~162756/eksamen/galleri.html</loc>
+  <lastmod>2016-11-20T17:07:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://itfag.usn.no/~162756/eksamen/tur.html</loc>
+  <lastmod>2016-11-20T17:07:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://itfag.usn.no/~162756/eksamen/bestilling.html</loc>
+  <lastmod>2016-11-20T17:07:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+</urlset>
