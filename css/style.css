@@ -16,10 +16,6 @@ header {
   }
 }
 
-.text-center {
-  text-align: center !important;
-}
-
 .main_header{
   color: white;
 }
@@ -333,26 +329,14 @@ main {
   float: left;
 }
 
-/*------------------------------------------------------------------------------------------------------------------------------*/
-/************************************************************INDEX-CSS***********************************************************/
-/*------------------------------------------------------------------------------------------------------------------------------*/
+/*Hjem*/
 
-
-
-/*----------------------*/
-/******turcontainer*****/
-/*----------------------*/
-.turcontainer{
+#hjemContainer {
   width: 1024px;
   margin: 0 auto;
 }
 
-/*----------------------*/
-/******turcontainer1*****/
-/*----------------------*/
-
-
-.turcontainer1{
+#nordlysImg {
   background-image: url(../bilder/hoved1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -362,28 +346,13 @@ main {
   display: block;
 }
 
-.turcontainer1 h1 {
+#nordlysImg h1 {
   padding-top: 150px;
   text-align: center;
   font-size: 48px
 }
 
-.turtekst1{
-  padding-top: 120px;
-  font-family: "proxima-nova black", sans-serif;
-  font-style: normal;
-  font-size: 90px;
-  font-weight: 900;
-  text-align: center;
-  position: relative;
-  bottom: 43px;
-}
-
-/*--------------------------*/
-/*******mapcontainer********/
-/*-------------------------*/
-
-.mapcontainer{
+#kartImg{
   width: 100%;
 }
 
@@ -581,12 +550,11 @@ a.button3:hover {
 /*-------------------------------*/
 
 @media (max-width: 1030px) {
-  .turcontainer {
-    width: 100% !important;
+  .hjemContainer {
+    width: 100%;
   }
 
-  .turcontainer1 {
-    width: 100%;
+  #nordlysImg {
     height: 400px
   }
 
@@ -594,13 +562,11 @@ a.button3:hover {
     width: 100%;
     height: 400px
   }
-/*
+
   .turcontainer4 {
-    background-image: url(../bilder/reise-mobil.jpg);
-    width: 100%;
     height: 400px
   }
-*/
+
   .turcontainer4tekst,
   .turcontainer3tekst,
   .turcontainer2tekst,
@@ -632,5 +598,9 @@ a.button3:hover {
 @media (max-width: 450px) {
   .turcontainer2 {
     background-image: url(../bilder/dog-mobil.jpg);
+  }
+
+  .turcontainer4 {
+    background-image: url(../bilder/reise-mobil.jpg);
   }
 }
