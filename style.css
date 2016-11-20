@@ -588,8 +588,11 @@ a.button3:hover {
     height: 400px
   }
 
-  .turcontainer4tekst, .turcontainer3tekst, .turcontainer2tekst, .bli-inspirert {
-    font-size: 48px;
+  .turcontainer4tekst,
+  .turcontainer3tekst,
+  .turcontainer2tekst,
+  .bli-inspirert {
+    font-size: 42px;
   }
 
   .button {
