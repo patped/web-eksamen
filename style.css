@@ -67,7 +67,7 @@ th {
 }
 
 #headerGalleri {
-  background: url(bilder/galleri-isbjorn.jpg);
+  background: url(bilder/galleriHeader.jpg);
 }
 
 #headerTur {
@@ -321,7 +321,7 @@ main {
 }
 
 #galleri figure {
-  width: 320px;
+  width: 300px;
   height: 210px;
   text-align: center;
   padding-top: 10px;
