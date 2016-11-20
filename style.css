@@ -422,6 +422,8 @@ main {
   font-family: "proxima-nova black", sans-serif;
   text-align: center;
   padding-bottom: 40px;
+  position: relative;
+  top: 20px;
 }
 
 /*----------------------*/
@@ -578,7 +580,7 @@ a.button3:hover {
 /******index-mobil-responsive*****/
 /*-------------------------------*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
   .turcontainer {
     width: 100% !important;
   }
@@ -588,16 +590,39 @@ a.button3:hover {
     height: 400px
   }
 
+  .turcontainer2 {
+    background-image: url(bilder/dog-mobil.jpg);
+    width: 100%;
+    height: 400px
+  }
+
+  .turcontainer3 {
+    width: 100%;
+    height: 400px
+  }
+
+  .turcontainer4 {
+    background-image: url(bilder/reise-mobil.jpg);
+    width: 100%;
+    height: 400px
+  }
+
   .turcontainer4tekst,
   .turcontainer3tekst,
   .turcontainer2tekst,
   .bli-inspirert {
-    font-size: 42px;
+    font-size: 32px;
+  }
+
+  .linktekst{
+    position: relative;
+    top: 20px;
   }
 
   .button {
     margin: auto;
     font-size: 24px;
-    width: 100px;
+    width: 140px;
+    padding: 10px 5px;
   }
 }
