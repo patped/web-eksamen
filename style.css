@@ -375,7 +375,7 @@ main {
 
 .turtekst1{
   padding-top: 120px;
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-style: normal;
   font-size: 90px;
   font-weight: 900;
@@ -406,7 +406,7 @@ main {
 
 .bli-inspirert{
   padding-top: 17px;
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-style: normal;
   font-size: 90px;
   font-weight: 900;
@@ -415,7 +415,7 @@ main {
 }
 
 .drom{
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 900;
@@ -424,7 +424,7 @@ main {
 
 .linktekst{
   font-size: 20px;
-  font-family: proxima-nova, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -447,7 +447,7 @@ main {
 
 .turcontainer2tekst{
   color: lightgray;
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-style: normal;
   font-size: 65px;
   font-weight: 900;
@@ -458,7 +458,7 @@ main {
 }
 
 .button{
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
@@ -473,9 +473,7 @@ main {
 a.button:hover {
   background-color: #b7b7b7;
   opacity:0.8;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-transition: all 0.4s ease-i
+  
 }
 
 
@@ -503,7 +501,7 @@ a.button:hover {
 
 .turcontainer3tekst{
   padding-top: 100px;
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-style: normal;
   font-size: 80px;
   font-weight: 900;
@@ -515,7 +513,7 @@ a.button:hover {
 
 
 .button {
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
@@ -530,9 +528,6 @@ a.button:hover {
 .button:hover {
   background-color: #b7b7b7;
   opacity:0.8;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-transition: all 0.4s ease-i
 }
 
 /*----------------------*/
@@ -555,7 +550,7 @@ a.button:hover {
 
 .turcontainer4tekst{
   padding-top: 95px;
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-style: normal;
   font-size: 80px;
   font-weight: 900;
@@ -565,7 +560,7 @@ a.button:hover {
 }
 
 .button3{
-  font-family: proxima-nova black, sans-serif;
+  font-family: "proxima-nova black", sans-serif;
   font-size: 28px;
   text-align: center;
   border: 5px solid #352d2d;
@@ -582,9 +577,6 @@ a.button:hover {
 a.button3:hover {
   background-color: #b7b7b7;
   opacity:0.8;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-transition: all 0.4s ease-i
 }
 
 /*-------------------------------*/
