@@ -16,10 +16,6 @@ header {
   }
 }
 
-.main_header{
-  color: white;
-}
-
 h1 {
   text-indent: -9999px;
 }
@@ -550,7 +546,7 @@ a.button3:hover {
 /*-------------------------------*/
 
 @media (max-width: 1030px) {
-  .hjemContainer {
+  #hjemContainer {
     width: 100%;
   }
 
