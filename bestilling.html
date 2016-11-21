@@ -19,7 +19,7 @@
           <li><a href="index.html">Hjem</a></li>
           <li><a href="galleri.html">Bilde Galleri</a></li>
           <li><a href="tur.html">Tur Info</a></li>
-          <li><a id="activeButton" href="bestilling.html">Bestilling</a></li>
+          <li><a id="activeButton" href="bestilling.php">Bestilling</a></li>
         </ul>
       </nav>
     </div>
@@ -30,17 +30,28 @@
 
     <main>
       <div class="bestillingContainer">
-        <form name="form1" method="post" action="meldinn.php">
+        <form name="form1" method="post" action="bestilling.php">
           <h3>Hvem tur vill du bestille?</h3>
           <br>
           <br>
-          <input type="radio" name="tur">Nordlys jakten i høstferien
+          <input type="radio" name="tur" value="nordlys">Nordlys jakten i høstferien (18000kr pr pers)
           <br>
-          <input type="radio" name="tur">Hundekjøring for de spreke
+          <input type="radio" name="tur" value="hundekjoring">Hundekjøring for de spreke (15000kr pr pers)
           <br>
-          <input type="radio" name="tur">Artisk dyreliv safari
+          <input type="radio" name="tur" value="safari">Artisk dyreliv safari (12000kr pr pers)
           <br>
-          <input type="radio" name="tur">Nordlys rave på nyttårsaften
+          <input type="radio" name="tur" value="rave">Nordlys rave på nyttårsaften (8000kr pr pers)
+          <br>
+          <br>
+          <label>Antall Personer:</label>
+          <br>
+          <select name="antallpersoner">
+            <option value="false">Velg antall personer</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
           <br>
           <br>
           <h3>
@@ -56,17 +67,17 @@
 
               <tr>
                 <td><label for="navn">Navn</label></td>
-                <td><input id="navn" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
+                <td><input id="navn" required type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
               </tr>
 
               <tr>
                 <td><label for="mobil">Mobil</label></td>
-                <td><input id="mobil" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
+                <td><input id="mobil" required type="tel" name="mobil" placeholder="8-siffer"></td>
               </tr>
 
               <tr>
                 <td><label for="epost">E-Mail</label></td>
-                <td><input id="epost" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
+                <td><input id="epost" required type="email" name="epost" placeholder="E-postadresse"></td>
               </tr>
 
             </tbody>
@@ -81,19 +92,12 @@
               <tr><td>Gi oss gjerne en beskjed hvis det er noe ekstra du lurer på:</td></tr>
               <tr><td><textarea id="beskjed"></textarea></td></tr>
             </tbody>
-
           </table>
-
-          <select name="mtype" id="mtype" onChange=valgtm(this.options[this.selectedIndex].value);>
-            <option value="0">Velg Tur</option>
-            <option value="nordlyshost,15000">Nordlys jakten i høstferien</option>
-            <option value="hundekjoring,12000">Hundekjøring for de spreke</option>
-            <option value="safari,17000">Artisk dyreliv safari</option>
-            <option value="nordlysrave,8000">Nordlys rave på nyttårsaften</option>
-          </select>
-          &nbsp;&nbsp;
-          <input type="text" name="pris" id="pris" readonly>pr pers.
-
+          <br>
+          Totalpris: <span id="totalpris"></span>
+          <br>
+          <br>
+          <input type="submit" class="bestillingButton">
         </form>
       </div>
 
@@ -107,23 +111,9 @@
 
     </main>
 
-    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/menu.js"></script>
-
-    <script>
-
-      function valgtm(verdi) {
-        var s = verdi.indexOf(",");
-        var lengde = verdi.length;
-        var mtype = verdi.substr(0, s);
-        var pris = verdi.substr(s+1, lengde);
-
-        document.form1.pris.value = pris;
-
-      }
-
-    </script>
-
+    <script src="js/bestilling.js"></script>
 
   </body>
 </html>
