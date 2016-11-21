@@ -43,9 +43,10 @@
           <input type="radio" name="tur" value="rave">Nordlys rave på nyttårsaften (8000kr pr pers)
           <br>
           <br>
-          <label>Antall Personer</label>
+          <label>Antall Personer:</label>
+          <br>
           <select name="antallpersoner">
-            <option value="0"></option>
+            <option value="false">Velg antall personer</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -93,7 +94,7 @@
             </tbody>
           </table>
           <br>
-          Totalpris: <span id="totalpris">Velg antall personer og tur for å se totalpris</span>
+          Totalpris: <span id="totalpris"></span>
           <br>
           <br>
           <input type="submit" class="bestillingButton">
@@ -116,7 +117,6 @@
     <script>
 
       var num_people = false;
-      var type_trip = false;
       var trip_price = false;
       var tot_trip_price = false;
 
@@ -124,37 +124,41 @@
         if (num_people && trip_price) {
           tot_trip_price = trip_price * num_people;
           $('#totalpris').text(tot_trip_price);
-        };
+        } else {
+          $('#totalpris').text('Velg antall personer og tur for å se totalpris');
+        }
       }
 
       $("input[name='tur']").on("change", function () {
-        type_trip = this.value;
-        if (type_trip == 'nordlys') {
+        if (this.value == 'nordlys') {
           trip_price = 18000;
-        } else if (type_trip == 'hundekjoring') {
+        } else if (this.value == 'hundekjoring') {
           trip_price = 15000;
-        } else if (type_trip == 'safari') {
+        } else if (this.value == 'safari') {
           trip_price = 12000;
-        } else if (type_trip == 'rave') {
+        } else if (this.value == 'rave') {
           trip_price = 8000;
+        } else {
+          trip_price = false;
         }
-        updatetotalprice()
+        updatetotalprice();
       });
 
       $("select[name='antallpersoner']").on("change", function () {
+        num_people = parseInt(this.value);
+        if(!isNaN(num_people)) {
+          num_people = this.value;
+        } else {
 
-        if (this.value == 0) {
           num_people = false;
           tot_trip_price = false;
-          $('#totalpris').text('Velg antall personer og tur for å se totalpris');
-        } else {
-          num_people = this.value;
         }
-        updatetotalprice()
+        updatetotalprice();
       });
 
-    </script>
+      updatetotalprice();
 
+    </script>
 
   </body>
 </html>
