@@ -352,43 +352,36 @@ main {
   width: 100%;
 }
 
-/*----------------------*/
-/*******inspirert********/
-/*----------------------*/
-
-.inspirert{
-  background-color: #e2e2e2;
-}
-
-.inspirert-innhold {
+#inspirertContainer {
   padding: 35px 0 35px 0;
 }
 
-.bli-inspirert{
+#inspirertTxt {
   padding-top: 17px;
   font-family: "proxima-nova black", sans-serif;
-  font-style: normal;
   font-size: 90px;
   font-weight: 900;
   text-align: center;
-  position: relative;
 }
 
-.drom{
+#inspirertTxtBig {
   font-family: "proxima-nova black", sans-serif;
-  font-style: normal;
   font-size: 40px;
   font-weight: 900;
   text-align: center;
 }
 
-.linktekst{
+#inspirertLinker {
   font-size: 20px;
   font-family: "proxima-nova black", sans-serif;
   text-align: center;
   padding-bottom: 40px;
   position: relative;
   top: 20px;
+}
+
+#inspirertLinker a {
+  color: black;
 }
 
 /*----------------------*/
@@ -471,8 +464,6 @@ a.button:hover {
   position: relative;
   margin: auto;
 }
-
-
 
 .button {
   font-family: "proxima-nova black", sans-serif;
