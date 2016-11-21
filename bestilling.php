@@ -31,7 +31,7 @@
 
     <main>
       <div class="bestillingContainer">
-        <?php if ($_SERVER['REQUEST_METHOD'] === 'GET'): ?>
+        <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') { ?>
           <form name="form1" method="post" action="bestilling.php">
             <h3>Hvem tur vill du bestille?</h3>
             <br>
@@ -101,9 +101,26 @@
             <br>
             <input type="submit" class="bestillingButton">
           </form>
-        <?php else if($_SERVER['REQUEST_METHOD'] === 'POST'): ?>
-          POST
-        <?php endif; ?>
+        <?php } else if($_SERVER['REQUEST_METHOD'] === 'POST') { ?>
+          <?php
+
+$navn = $_POST['navn'];
+$mobil = $_POST['mobil'];
+$epost = $_POST['epost'];
+$beskjed = $_POST['beskjed'];
+$antallpersoner = $_POST['antallpersoner'];
+$tur = $_POST['tur'];
+?>
+
+<p><b>Hei <?php echo $navn; ?>!</b><br><br>
+Dette er din kvitering:
+<ul><li>Fornavn:<?php echo $navn; ?></font></li>
+<li>Mobil:<?php echo $mobil; ?></font></li>
+<li>E-post:<?php echo $epost; ?></font></li>
+<li>Beskjed:<?php echo $beskjed; ?></font></li>
+<li>Tur:<?php echo $tur; ?></font></li>
+<li>Antall Personer:<?php echo $antallpersoner; ?>stk.</font></li></ul>
+        <?php } ?>
       </div>
 
       <footer>
