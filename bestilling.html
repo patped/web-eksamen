@@ -45,7 +45,6 @@
           <br>
           <h3>
             Skriv inn navn, nr og epost på kontakt person.
-            Maks antall personer pr. bestilling er 8 stykker.
           </h3>
           <br>
           <br>
@@ -79,25 +78,21 @@
           <table id="bestillingskjema_beskjed">
 
             <tbody>
+              <tr><td>Gi oss gjerne en beskjed hvis det er noe ekstra du lurer på:</td></tr>
               <tr><td><textarea id="beskjed"></textarea></td></tr>
             </tbody>
 
           </table>
 
-          <table>
-                        <tr><td>
-              <label for="mtype">Medlemstype</label>
-            </td><td>
-              <select name="mtype" id="mtype" onChange=valgtm(this.options[this.selectedIndex].value);>
-                <option value="0">Velg medlemstype</option>
-                <option value="Junior,150">Junior</option>
-                <option value="Senior,500">Senior</option>
-                <option value="Støttemedlem,2000">Støttemedlem</option>
-              </select>
-              &nbsp;&nbsp;
-              <input type="text" name="pris" id="pris" readonly>
-            <td></tr>
-          </table>
+          <select name="mtype" id="mtype" onChange=valgtm(this.options[this.selectedIndex].value);>
+            <option value="0">Velg Tur</option>
+            <option value="nordlyshost,15000">Nordlys jakten i høstferien</option>
+            <option value="hundekjoring,12000">Hundekjøring for de spreke</option>
+            <option value="safari,17000">Artisk dyreliv safari</option>
+            <option value="nordlysrave,8000">Nordlys rave på nyttårsaften</option>
+          </select>
+          &nbsp;&nbsp;
+          <input type="text" name="pris" id="pris" readonly>pr pers.
 
         </form>
       </div>
