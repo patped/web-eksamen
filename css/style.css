@@ -164,6 +164,11 @@ footer {
   }
 }
 
+footer p,
+footer p a {
+  color: #fff;
+}
+
 /*Wrappers and containers*/
 
 main {
