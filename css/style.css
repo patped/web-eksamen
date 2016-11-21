@@ -343,17 +343,11 @@ main {
   display: block;
 }
 
-#nordlysImg h1 {
-  padding-top: 150px;
-  text-align: center;
-  font-size: 48px
-}
-
-#kartImg{
+#kartImg {
   width: 100%;
 }
 
-#hoved-tekst {
+#nordlysImg h1 {
   text-indent: 0;
   text-align: center;
   color: lightgray;
