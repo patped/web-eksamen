@@ -36,18 +36,18 @@
             <h3>Hvem tur vill du bestille?</h3>
             <br>
             <br>
-            <input type="radio" name="tur" value="nordlys">Nordlys jakten i høstferien (18000kr pr pers)
+            <input type="radio" name="tur" required value="nordlys">Nordlys jakten i høstferien (18000kr pr pers)
             <br>
-            <input type="radio" name="tur" value="hundekjoring">Hundekjøring for de spreke (15000kr pr pers)
+            <input type="radio" name="tur" required value="hundekjoring">Hundekjøring for de spreke (15000kr pr pers)
             <br>
-            <input type="radio" name="tur" value="safari">Artisk dyreliv safari (12000kr pr pers)
+            <input type="radio" name="tur" required value="safari">Artisk dyreliv safari (12000kr pr pers)
             <br>
-            <input type="radio" name="tur" value="rave">Nordlys rave på nyttårsaften (8000kr pr pers)
+            <input type="radio" name="tur" required value="rave">Nordlys rave på nyttårsaften (8000kr pr pers)
             <br>
             <br>
             <label>Antall Personer:</label>
             <br>
-            <select name="antallpersoner">
+            <select required name="antallpersoner">
               <option value="false">Velg antall personer</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -101,26 +101,30 @@
             <br>
             <input type="submit" class="bestillingButton">
           </form>
-        <?php } else if($_SERVER['REQUEST_METHOD'] === 'POST') { ?>
-          <?php
 
-$navn = $_POST['navn'];
-$mobil = $_POST['mobil'];
-$epost = $_POST['epost'];
-$beskjed = $_POST['beskjed'];
-$antallpersoner = $_POST['antallpersoner'];
-$tur = $_POST['tur'];
-?>
+          <?php } else if($_SERVER['REQUEST_METHOD'] === 'POST') { ?>
+            <?php
+              $navn = $_POST['navn'];
+              $mobil = $_POST['mobil'];
+              $epost = $_POST['epost'];
+              $beskjed = $_POST['beskjed'];
+              $antallpersoner = $_POST['antallpersoner'];
+              $tur = $_POST['tur'];
+            ?>
 
-<p><b>Hei <?php echo $navn; ?>!</b><br><br>
-Dette er din kvitering:
-<ul><li>Fornavn:<?php echo $navn; ?></font></li>
-<li>Mobil:<?php echo $mobil; ?></font></li>
-<li>E-post:<?php echo $epost; ?></font></li>
-<li>Beskjed:<?php echo $beskjed; ?></font></li>
-<li>Tur:<?php echo $tur; ?></font></li>
-<li>Antall Personer:<?php echo $antallpersoner; ?>stk.</font></li></ul>
-        <?php } ?>
+            <p>Hei <?php echo $navn; ?>!
+            <br>
+            <br>
+            Dette er din kvitering:
+            <ul>
+              <li>Fornavn:<?php echo $navn; ?></li>
+              <li>Mobil:<?php echo $mobil; ?></li>
+              <li>E-post:<?php echo $epost; ?></li>
+              <li>Beskjed:<?php echo $beskjed; ?></li>
+              <li>Tur:<?php echo $tur; ?></li>
+              <li>Antall Personer:<?php echo $antallpersoner; ?>stk.</li>
+            </ul>
+          <?php } ?>
       </div>
 
       <footer>
@@ -135,52 +139,7 @@ Dette er din kvitering:
 
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/menu.js"></script>
-
-    <script>
-
-      var num_people = false;
-      var trip_price = false;
-      var tot_trip_price = false;
-
-      function updatetotalprice() {
-        if (num_people && trip_price) {
-          tot_trip_price = trip_price * num_people;
-          $('#totalpris').text(tot_trip_price);
-        } else {
-          $('#totalpris').text('Velg antall personer og tur for å se totalpris');
-        }
-      }
-
-      $("input[name='tur']").on("change", function () {
-        if (this.value == 'nordlys') {
-          trip_price = 18000;
-        } else if (this.value == 'hundekjoring') {
-          trip_price = 15000;
-        } else if (this.value == 'safari') {
-          trip_price = 12000;
-        } else if (this.value == 'rave') {
-          trip_price = 8000;
-        } else {
-          trip_price = false;
-        }
-        updatetotalprice();
-      });
-
-      $("select[name='antallpersoner']").on("change", function () {
-        num_people = parseInt(this.value);
-        if(!isNaN(num_people)) {
-          num_people = this.value;
-        } else {
-
-          num_people = false;
-          tot_trip_price = false;
-        }
-        updatetotalprice();
-      });
-
-      updatetotalprice();
-
-    </script>
+    <script src="js/bestilling.js"></script>
 
   </body>
 </html>
