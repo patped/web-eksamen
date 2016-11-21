@@ -553,11 +553,11 @@ a.button3:hover {
   .turcontainer4tekst,
   .turcontainer3tekst,
   .turcontainer2tekst,
-  .bli-inspirert {
+  #inspirertTxt {
     font-size: 32px;
   }
 
-  .linktekst{
+  #inspirertLinker{
     position: relative;
     top: 20px;
   }
