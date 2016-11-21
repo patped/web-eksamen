@@ -429,7 +429,7 @@ main {
   margin: auto;
 }
 
-#oppdagButton {
+.oppdagButton {
   font-family: "proxima-nova black", sans-serif;
   font-size: 28px;
   text-align: center;
@@ -444,7 +444,7 @@ main {
   position: relative;
 }
 
-#oppdagButton:hover {
+.oppdagButton:hover {
   background-color: #b7b7b7;
   opacity:0.8;
 }
@@ -502,7 +502,7 @@ main {
     top: 20px;
   }
 
-  #oppdagButton {
+  .oppdagButton {
     margin: auto;
     font-size: 24px;
     width: 140px;
