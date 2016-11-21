@@ -19,7 +19,7 @@
           <li><a href="index.html">Hjem</a></li>
           <li><a href="galleri.html">Bilde Galleri</a></li>
           <li><a href="tur.html">Tur Info</a></li>
-          <li><a id="activeButton" href="bestilling.html">Bestilling</a></li>
+          <li><a id="activeButton" href="bestilling.php">Bestilling</a></li>
         </ul>
       </nav>
     </div>
@@ -111,54 +111,9 @@
 
     </main>
 
-    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/menu.js"></script>
-
-    <script>
-
-      var num_people = false;
-      var trip_price = false;
-      var tot_trip_price = false;
-
-      function updatetotalprice() {
-        if (num_people && trip_price) {
-          tot_trip_price = trip_price * num_people;
-          $('#totalpris').text(tot_trip_price);
-        } else {
-          $('#totalpris').text('Velg antall personer og tur for å se totalpris');
-        }
-      }
-
-      $("input[name='tur']").on("change", function () {
-        if (this.value == 'nordlys') {
-          trip_price = 18000;
-        } else if (this.value == 'hundekjoring') {
-          trip_price = 15000;
-        } else if (this.value == 'safari') {
-          trip_price = 12000;
-        } else if (this.value == 'rave') {
-          trip_price = 8000;
-        } else {
-          trip_price = false;
-        }
-        updatetotalprice();
-      });
-
-      $("select[name='antallpersoner']").on("change", function () {
-        num_people = parseInt(this.value);
-        if(!isNaN(num_people)) {
-          num_people = this.value;
-        } else {
-
-          num_people = false;
-          tot_trip_price = false;
-        }
-        updatetotalprice();
-      });
-
-      updatetotalprice();
-
-    </script>
+    <script src="js/bestilling.js"></script>
 
   </body>
 </html>

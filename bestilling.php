@@ -20,7 +20,7 @@
           <li><a href="index.html">Hjem</a></li>
           <li><a href="galleri.html">Bilde Galleri</a></li>
           <li><a href="tur.html">Tur Info</a></li>
-          <li><a id="activeButton" href="bestilling.html">Bestilling</a></li>
+          <li><a id="activeButton" href="bestilling.php">Bestilling</a></li>
         </ul>
       </nav>
     </div>
@@ -116,6 +116,8 @@
             <br>
             <br>
             Dette er din kvitering:
+            <br>
+            <br>
             <ul>
               <li>Fornavn:<?php echo $navn; ?></li>
               <li>Mobil:<?php echo $mobil; ?></li>
@@ -137,7 +139,7 @@
 
     </main>
 
-    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/bestilling.js"></script>
 
