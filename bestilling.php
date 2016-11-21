@@ -92,7 +92,7 @@
 
               <tbody>
                 <tr><td>Gi oss gjerne en beskjed hvis det er noe ekstra du lurer på:</td></tr>
-                <tr><td><textarea id="beskjed"></textarea></td></tr>
+                <tr><td><textarea id="beskjed" name="beskjed"></textarea></td></tr>
               </tbody>
             </table>
             <br>
