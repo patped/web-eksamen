@@ -4,7 +4,7 @@
   <head>
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
     <meta name="description" content="Nordland, er reise destinasjon nr. 1 for å oppleve nordlys, arktiske dyreliv, hundekjøring, fest og familieferie">
-    <title>Bestill din tur til Nordland her/title>
+    <title>Bestill din tur til Nordland her</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" >
@@ -30,7 +30,7 @@
 
     <main>
       <div class="bestillingContainer">
-        <form>
+        <form name="form1" method="post" action="meldinn.php">
           <h3>Hvem tur vill du bestille?</h3>
           <br>
           <br>
@@ -44,219 +44,29 @@
           <br>
           <br>
           <h3>
-            Skriv inn navn og nr på personene som skal være med.
-            Maks antall personer pr. bestilling er 8 stykker. Hvis dere er mindre la feltene være blanke.
+            Skriv inn navn, nr og epost på kontakt person.
           </h3>
           <br>
           <br>
-          <table id="bestillingskjema_p1">
+          <table id="bestillingskjema">
 
-            <thead><tr><th id="person_1">Person 1</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p1">Navn</label></td>
-                <td><input id="navn_p1" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p1">Mobil</label></td>
-                <td><input id="mobil_p1" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p1">E-Mail</label></td>
-                <td><input id="epost_p1" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p2">
-
-            <thead><tr><th id="person_2">Person 2</th><td></td></tr></thead>
+            <thead><tr><th id="person">Ansvarlig</th><td></td></tr></thead>
 
             <tbody>
 
               <tr>
-                <td><label for="navn_p2">Navn</label></td>
-                <td><input id="navn_p2" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
+                <td><label for="navn">Navn</label></td>
+                <td><input id="navn" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
               </tr>
 
               <tr>
-                <td><label for="mobil_p2">Mobil</label></td>
-                <td><input id="mobil_p2" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
+                <td><label for="mobil">Mobil</label></td>
+                <td><input id="mobil" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
               </tr>
 
               <tr>
-                <td><label for="epost_p2">E-Mail</label></td>
-                <td><input id="epost_p2" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p3">
-
-            <thead><tr><th id="person_3">Person 3</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p3">Navn</label></td>
-                <td><input id="navn_p3" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p3">Mobil</label></td>
-                <td><input id="mobil_p3" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p3">E-Mail</label></td>
-                <td><input id="epost_p3" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p4">
-
-            <thead><tr><th id="person_4">Person 4</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p4">Navn</label></td>
-                <td><input id="navn_p4" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p4">Mobil</label></td>
-                <td><input id="mobil_p4" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p4">E-Mail</label></td>
-                <td><input id="epost_p4" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p5">
-
-            <thead><tr><th id="person_5">Person 5</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p5">Navn</label></td>
-                <td><input id="navn_p5" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p5">Mobil</label></td>
-                <td><input id="mobil_p5" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p5">E-Mail</label></td>
-                <td><input id="epost_p5" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p6">
-
-            <thead><tr><th id="person_6">Person 6</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p6">Navn</label></td>
-                <td><input id="navn_p6" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p6">Mobil</label></td>
-                <td><input id="mobil_p6" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p6">E-Mail</label></td>
-                <td><input id="epost_p6" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p7">
-
-            <thead><tr><th id="person_7">Person 7</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p7">Navn</label></td>
-                <td><input id="navn_p7" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p7">Mobil</label></td>
-                <td><input id="mobil_p7" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p7">E-Mail</label></td>
-                <td><input id="epost_p7" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
-              </tr>
-
-            </tbody>
-
-          </table>
-
-          <br>
-
-          <table id="bestillingskjema_p8">
-
-            <thead><tr><th id="person_8">Person 8</th><td></td></tr></thead>
-
-            <tbody>
-
-              <tr>
-                <td><label for="navn_p8">Navn</label></td>
-                <td><input id="navn_p8" class="req" type="text" name="navn" placeholder="Fornavn og Etternavn"></td>
-              </tr>
-
-              <tr>
-                <td><label for="mobil_p8">Mobil</label></td>
-                <td><input id="mobil_p8" class="req" type="tel" name="mobil" placeholder="8-siffer"></td>
-              </tr>
-
-              <tr>
-                <td><label for="epost_p8">E-Mail</label></td>
-                <td><input id="epost_p8" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
+                <td><label for="epost">E-Mail</label></td>
+                <td><input id="epost" class="req" type="email" name="epost" placeholder="E-postadresse"></td>
               </tr>
 
             </tbody>
@@ -268,10 +78,21 @@
           <table id="bestillingskjema_beskjed">
 
             <tbody>
+              <tr><td>Gi oss gjerne en beskjed hvis det er noe ekstra du lurer på:</td></tr>
               <tr><td><textarea id="beskjed"></textarea></td></tr>
             </tbody>
 
           </table>
+
+          <select name="mtype" id="mtype" onChange=valgtm(this.options[this.selectedIndex].value);>
+            <option value="0">Velg Tur</option>
+            <option value="nordlyshost,15000">Nordlys jakten i høstferien</option>
+            <option value="hundekjoring,12000">Hundekjøring for de spreke</option>
+            <option value="safari,17000">Artisk dyreliv safari</option>
+            <option value="nordlysrave,8000">Nordlys rave på nyttårsaften</option>
+          </select>
+          &nbsp;&nbsp;
+          <input type="text" name="pris" id="pris" readonly>pr pers.
 
         </form>
       </div>
@@ -288,6 +109,21 @@
 
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/menu.js"></script>
+
+    <script>
+
+      function valgtm(verdi) {
+        var s = verdi.indexOf(",");
+        var lengde = verdi.length;
+        var mtype = verdi.substr(0, s);
+        var pris = verdi.substr(s+1, lengde);
+
+        document.form1.pris.value = pris;
+
+      }
+
+    </script>
+
 
   </body>
 </html>

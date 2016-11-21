@@ -251,7 +251,7 @@ main {
 
 #beskjed {
   border-width: 2px;
-  width: 270px;
+  width: 100%;
   height: 200px;
 }
 
@@ -477,16 +477,10 @@ main {
     width: 100%;
   }
 
-  #nordlysImg {
-    height: 400px;
-  }
-
-  #sledeContainer {
-    height: 400px
-  }
-
+  #nordlysImg,
+  #sledeContainer,
   #reise-container {
-    height: 400px
+    height: 400px;
   }
 
   #nordlysImg h1,
