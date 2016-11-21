@@ -384,15 +384,11 @@ main {
   color: black;
 }
 
-/*----------------------*/
-/******turcontainer2*****/
-/*----------------------*/
-
-.turcontainer2{
+.turcontainer2 {
   width: 100%;
 }
 
-.turcontainer2{
+.turcontainer2 {
   background-image: url(../bilder/dog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
