@@ -169,6 +169,10 @@ footer p a {
   color: #fff;
 }
 
+footer p a {
+  text-decoration: underline;
+}
+
 /*Wrappers and containers*/
 
 main {
