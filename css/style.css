@@ -272,6 +272,16 @@ main {
 
 /*Tur info*/
 
+.bestillingButton {
+  background-color: #21b1ff;
+  color: white;
+  padding: 10px;
+}
+
+.bestillingButton:hover {
+  background-color: #039BE5;
+}
+
 #sSnoscooterImg {
   margin-right: 15px;
   width: 227px;
