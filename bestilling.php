@@ -108,8 +108,30 @@
               $mobil = $_POST['mobil'];
               $epost = $_POST['epost'];
               $beskjed = $_POST['beskjed'];
-              $antallpersoner = $_POST['antallpersoner'];
+              $antallpersoner = (int) $_POST['antallpersoner'];
               $tur = $_POST['tur'];
+
+              if ($tur == 'nordlys') {
+                $tur_navn = 'Nordlys jakten i høstferien';
+              } else if ($tur == 'hundekjoring') {
+                $tur_navn = 'Hundekjøring for de spreke';
+              } else if ($tur == 'safari') {
+                $tur_navn = 'Artisk dyreliv safari';
+              } else if ($tur == 'rave') {
+                $tur_navn = 'Nordlys rave på nyttårsaften';
+              }
+
+              if ($tur == 'nordlys') {
+                $tur_pris = 18000;
+              } else if ($tur == 'hundekjoring') {
+                $tur_pris = 15000;
+              } else if ($tur == 'safari') {
+                $tur_pris = 12000;
+              } else if ($tur == 'rave') {
+                $tur_pris = 8000;
+              }
+
+              $tot_pris = $antallpersoner * $tur_pris;
             ?>
 
             <p>Hei <?php echo $navn; ?>!
@@ -119,12 +141,14 @@
             <br>
             <br>
             <ul>
-              <li>Fornavn:<?php echo $navn; ?></li>
-              <li>Mobil:<?php echo $mobil; ?></li>
-              <li>E-post:<?php echo $epost; ?></li>
-              <li>Beskjed:<?php echo $beskjed; ?></li>
-              <li>Tur:<?php echo $tur; ?></li>
-              <li>Antall Personer:<?php echo $antallpersoner; ?>stk.</li>
+              <li>Fornavn:&nbsp;<?php echo $navn; ?></li>
+              <li>Mobil:&nbsp;<?php echo $mobil; ?></li>
+              <li>E-post:&nbsp;<?php echo $epost; ?></li>
+              <li>Beskjed:&nbsp;<?php echo $beskjed; ?></li>
+              <li>Tur:&nbsp;<?php echo $tur_navn; ?></li>
+              <li>Antall Personer:&nbsp;<?php echo $antallpersoner; ?>stk.</li>
+              <li>Pris  per pers&nbsp;<?php echo $tur_pris; ?>kr. Totalt:&nbsp;<?php echo $tot_pris; ?>kr.</li>
+
             </ul>
           <?php } ?>
       </div>
