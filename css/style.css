@@ -27,6 +27,7 @@ h2 {
 
 h3 {
   font-weight: bold;
+  display: inline-block;
 }
 
 p {
@@ -352,7 +353,8 @@ main {
   width: 100%;
 }
 
-.hoved-tekst{
+#hoved-tekst {
+  text-indent: 0;
   text-align: center;
   color: lightgray;
   font-family: "proxima-nova black", sans-serif;
@@ -397,7 +399,7 @@ main {
   color: black;
 }
 
-.dyr-container {
+#dyrContainer {
   background-image: url(../bilder/dog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -405,7 +407,7 @@ main {
   height: 853px;
 }
 
-.dyr-tekst{
+#dyrTxt {
   color: lightgray;
   font-family: "proxima-nova black", sans-serif;
   font-style: normal;
@@ -417,31 +419,7 @@ main {
   top: 40px;
 }
 
-.button{
-  font-family: "proxima-nova black", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  border: 5px solid #352d2d;
-  padding: 25px 65px;
-  background: rgba(83, 80, 76, 0.5);
-  display: inline;
-  color: black;
-  position: relative;
-  top: 43px;
-}
-
-a.button:hover {
-  background-color: #b7b7b7;
-  opacity:0.8;
-
-}
-
-
-/*----------------------*/
-/******turcontainer3*****/
-/*----------------------*/
-
-.slede-container{
+#sledeContainer{
   background-image: url(../bilder/sled.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -454,7 +432,7 @@ a.button:hover {
   object-fit: contain;
 }
 
-.slede-tekst{
+#sledeTxt {
   padding-top: 100px;
   font-family: "proxima-nova black", sans-serif;
   font-style: normal;
@@ -465,7 +443,7 @@ a.button:hover {
   margin: auto;
 }
 
-.button {
+#oppdagButton {
   font-family: "proxima-nova black", sans-serif;
   font-size: 28px;
   text-align: center;
@@ -476,9 +454,11 @@ a.button:hover {
   color: black;
   margin: auto;
   width: 200px;
+  top: 43px;
+  position: relative;
 }
 
-.button:hover {
+#oppdagButton:hover {
   background-color: #b7b7b7;
   opacity:0.8;
 }
@@ -524,7 +504,7 @@ a.button:hover {
     height: 400px;
   }
 
-  .slede-container {
+  .sledeContainer {
     width: 100%;
     height: 400px
   }
@@ -533,10 +513,10 @@ a.button:hover {
     height: 400px
   }
 
-  .hoved-tekst,
+  #hoved-tekst,
   .reise-tekst,
-  .slede-tekst,
-  .dyr-tekst,
+  #sledeTxt,
+  #dyrTxt,
   #inspirertTxt {
     font-size: 32px;
   }
@@ -573,62 +553,3 @@ a.button:hover {
     width: 100%;
   }
 }
-
-
-
-
-/*@media (max-width: 1030px) {
-  #hjemContainer {
-    width: 100%;
-  }
-
-  #nordlysImg {
-    height: 400px;
-  }
-
-  .turcontainer3 {
-    width: 100%;
-    height: 400px;
-  }
-
-  .turcontainer4 {
-    height: 400px;
-  }
-
-  .turcontainer4tekst,
-  .turcontainer3tekst,
-  .turcontainer2tekst,
-  #inspirertTxt {
-    font-size: 32px;
-  }
-
-  #inspirertLinker{
-    position: relative;
-    top: 20px;
-  }
-
-  .button {
-    margin: auto;
-    font-size: 24px;
-    width: 140px;
-    padding: 10px 5px;
-  }
-}
-
-@media (max-width: 830px) {
-  .turcontainer2 {
-    background-image: url(../bilder/dog-tablet.jpg);
-    width: 100%;
-    height: 400px
-  }
-}
-
-@media (max-width: 450px) {
-  .turcontainer2 {
-    background-image: url(../bilder/dog-mobil.jpg);
-  }
-
-  .turcontainer4 {
-    background-image: url(../bilder/reise-mobil.jpg);
-  }
-}*/
