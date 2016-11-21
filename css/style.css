@@ -16,14 +16,6 @@ header {
   }
 }
 
-.text-center {
-  text-align: center !important;
-}
-
-.main_header{
-  color: white;
-}
-
 h1 {
   text-indent: -9999px;
 }
@@ -35,6 +27,7 @@ h2 {
 
 h3 {
   font-weight: bold;
+  display: inline-block;
 }
 
 p {
@@ -42,7 +35,7 @@ p {
 }
 
 a {
-  color: #FFF;
+  color: black;
   text-decoration: none;
 }
 
@@ -333,91 +326,57 @@ main {
   float: left;
 }
 
-/*------------------------------------------------------------------------------------------------------------------------------*/
-/************************************************************INDEX-CSS***********************************************************/
-/*------------------------------------------------------------------------------------------------------------------------------*/
+/*Hjem*/
 
-
-
-/*----------------------*/
-/******turcontainer*****/
-/*----------------------*/
-.turcontainer{
+#hjemContainer {
   width: 1024px;
   margin: 0 auto;
 }
 
-/*----------------------*/
-/******turcontainer1*****/
-/*----------------------*/
-
-
-.turcontainer1{
+#nordlysImg {
   background-image: url(../bilder/hoved1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 700px;
-  margin: auto;
-  display: block;
 }
 
-.turcontainer1 h1 {
-  padding-top: 150px;
+#nordlysImg h1 {
+  text-indent: 0;
   text-align: center;
-  font-size: 48px
-}
-
-.turtekst1{
-  padding-top: 120px;
+  color: lightgray;
   font-family: "proxima-nova black", sans-serif;
-  font-style: normal;
-  font-size: 90px;
+  font-size: 65px;
   font-weight: 900;
   text-align: center;
   position: relative;
-  bottom: 43px;
+  top: 40px;
 }
 
-/*--------------------------*/
-/*******mapcontainer********/
-/*-------------------------*/
-
-.mapcontainer{
+#kartImg {
   width: 100%;
 }
 
-/*----------------------*/
-/*******inspirert********/
-/*----------------------*/
-
-.inspirert{
-  background-color: #e2e2e2;
-}
-
-.inspirert-innhold {
+#inspirertContainer {
   padding: 35px 0 35px 0;
 }
 
-.bli-inspirert{
+#inspirertTxt {
   padding-top: 17px;
   font-family: "proxima-nova black", sans-serif;
-  font-style: normal;
   font-size: 90px;
   font-weight: 900;
   text-align: center;
-  position: relative;
 }
 
-.drom{
+#inspirertTxtBig {
   font-family: "proxima-nova black", sans-serif;
-  font-style: normal;
   font-size: 40px;
   font-weight: 900;
   text-align: center;
 }
 
-.linktekst{
+#inspirertLinker {
   font-size: 20px;
   font-family: "proxima-nova black", sans-serif;
   text-align: center;
@@ -426,15 +385,7 @@ main {
   top: 20px;
 }
 
-/*----------------------*/
-/******turcontainer2*****/
-/*----------------------*/
-
-.turcontainer2{
-  width: 100%;
-}
-
-.turcontainer2{
+#dyrContainer {
   background-image: url(../bilder/dog.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -442,7 +393,7 @@ main {
   height: 853px;
 }
 
-.turcontainer2tekst{
+#dyrTxt {
   color: lightgray;
   font-family: "proxima-nova black", sans-serif;
   font-style: normal;
@@ -454,36 +405,7 @@ main {
   top: 40px;
 }
 
-.button{
-  font-family: "proxima-nova black", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  border: 5px solid #352d2d;
-  padding: 25px 65px;
-  background: rgba(83, 80, 76, 0.5);
-  display: inline;
-  color: black;
-  position: relative;
-  top: 43px;
-}
-
-a.button:hover {
-  background-color: #b7b7b7;
-  opacity:0.8;
-
-}
-
-
-/*----------------------*/
-/******turcontainer3*****/
-/*----------------------*/
-
-
-.turcontainer3{
-  width: 100%;
-}
-
-.turcontainer3{
+#sledeContainer{
   background-image: url(../bilder/sled.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -496,7 +418,7 @@ a.button:hover {
   object-fit: contain;
 }
 
-.turcontainer3tekst{
+#sledeTxt {
   padding-top: 100px;
   font-family: "proxima-nova black", sans-serif;
   font-style: normal;
@@ -507,9 +429,7 @@ a.button:hover {
   margin: auto;
 }
 
-
-
-.button {
+#oppdagButton {
   font-family: "proxima-nova black", sans-serif;
   font-size: 28px;
   text-align: center;
@@ -518,20 +438,18 @@ a.button:hover {
   background: rgba(83, 80, 76, 0.5);
   display: block;
   color: black;
-  margin: 0 auto;
+  margin: auto;
   width: 200px;
+  top: 43px;
+  position: relative;
 }
 
-.button:hover {
+#oppdagButton:hover {
   background-color: #b7b7b7;
   opacity:0.8;
 }
 
-/*----------------------*/
-/******turcontainer4*****/
-/*----------------------*/
-
-.turcontainer4{
+#reiseContainer {
   clear: both;
   background-image: url(../bilder/reise.jpg);
   background-size: cover;
@@ -541,11 +459,9 @@ a.button:hover {
   margin: auto;
   padding-bottom: 50px;
   position: relative;
-  display: block;
-  object-fit: contain;
 }
 
-.turcontainer4tekst{
+#reiseTxt {
   padding-top: 95px;
   font-family: "proxima-nova black", sans-serif;
   font-style: normal;
@@ -556,73 +472,57 @@ a.button:hover {
   margin: auto;
 }
 
-.button3{
-  font-family: "proxima-nova black", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  border: 5px solid #352d2d;
-  padding: 25px 65px;
-  background: rgba(83, 80, 76, 0.5);
-  display: inline;
-  position: relative;
-  top: 70px;
-  left: 345px;
-  float: left;
-  color: black;
-}
-
-a.button3:hover {
-  background-color: #b7b7b7;
-  opacity:0.8;
-}
-
-/*-------------------------------*/
-/******index-mobil-responsive*****/
-/*-------------------------------*/
-
-@media screen and (max-width: 600px) {
-  .turcontainer {
-    width: 100% !important;
+@media (max-width: 1030px) {
+  #hjemContainer {
+    width: 100%;
   }
 
-  .turcontainer1 {
-    width: 100%;
+  #nordlysImg {
+    height: 400px;
+  }
+
+  #sledeContainer {
     height: 400px
   }
 
-  .turcontainer2 {
-    background-image: url(../bilder/dog-mobil.jpg);
-    width: 100%;
+  #reise-container {
     height: 400px
   }
 
-  .turcontainer3 {
-    width: 100%;
-    height: 400px
-  }
-
-  .turcontainer4 {
-    background-image: url(../bilder/reise-mobil.jpg);
-    width: 100%;
-    height: 400px
-  }
-
-  .turcontainer4tekst,
-  .turcontainer3tekst,
-  .turcontainer2tekst,
-  .bli-inspirert {
+  #nordlysImg h1,
+  #reiseTxt,
+  #sledeTxt,
+  #dyrTxt,
+  #inspirertTxt {
     font-size: 32px;
   }
 
-  .linktekst{
+  #inspirertLinker{
     position: relative;
     top: 20px;
   }
 
-  .button {
+  #oppdagButton {
     margin: auto;
     font-size: 24px;
     width: 140px;
     padding: 10px 5px;
+  }
+}
+
+@media (max-width: 830px) {
+  #dyrContainer {
+    background-image: url(../bilder/dog-tablet.jpg);
+    height: 400px;
+  }
+
+  #reiseContainer {
+    background-image: url(../bilder/reise-mobil.jpg);
+  }
+}
+
+@media (max-width: 450px) {
+  #dyrContainer {
+    background-image: url(../bilder/dog-mobil.jpg);
   }
 }
