@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="nb">
+
   <head>
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-    <meta name="description" content="Nordland, er reise destinasjon nr. 1 for å oppleve nordlys, arktiske dyreliv, hundekjøring, fest og familieferie">
-    <title>Nordland</title>
+    <meta name="description" content="Nordland, er tur destinasjon nr. 1 for å oppleve nordlys, arktisk dyreliv, hundekjøring, fest og familieferie">
+    <title>Nordland stede for å oppleve nordlys, arktisk dyreliv turer med hundekjøring og mye mer</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-<body>
-  <div id="menubar">
-   <nav>
-      <button id="show_menu">Meny</button>
-      <ul id='manu_container'>
-        <li><a id="activeButton" href="index.html">Hjem</a></li>
-        <li><a href="galleri.html">Bilde Galleri</a></li>
-        <li><a href="tur.html">Tur Info</a></li>
-        <li><a href="bestilling.html">Bestilling</a></li>
-      </ul>
-    </nav>
-  </div>
 
-  <main>
-    <div class="turcontainer">
-      <div class="turcontainer1">
-        <h2 class="turcontainer2tekst text-center">VELKOMMEN TIL NORDLYSET</h2>
-      </div>
-      <img class="mapcontainer" src="bilder/map.jpg" alt="NORDLAND_KART">
-      <div class="inspirert">
-        <div class="inspirert-innhold">
-          <p class="bli-inspirert">BLI INSPIRERT</p>
-          <p class="drom">NORDLYS DRØMMER</p>
-          <div class="linktekst">
-            <a href="bestlling.html">Opplevelser</a> |
-            <a href="galleri.html">Nordlys Rekommenderte Reiser</a> |
-            <a href="tur.html">Alle Destinasjoner</a>
+  <body>
+
+    <div id="menubar">
+     <nav>
+        <button id="show_menu">Meny</button>
+        <ul id='manu_container'>
+          <li><a id="activeButton" href="index.html">Hjem</a></li>
+          <li><a href="galleri.html">Bilde Galleri</a></li>
+          <li><a href="tur.html">Tur Info</a></li>
+          <li><a href="bestilling.html">Bestilling</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+
+      <div id="hjemContainer">
+
+        <div id="nordlysImg">
+          <h1>VELKOMMEN TIL NORDLYSET</h1>
+        </div>
+
+        <img id="kartImg" src="bilder/map.jpg" alt="NORDLAND_KART">
+
+        <div id="inspirertContainer">
+          <p id="inspirertTxt">BLI INSPIRERT</p>
+          <h2 id="inspirertTxtBig">NORDLYS I NORDLAND</h2>
+          <div id="inspirertLinker">
+            <h3><a href="galleri.html">Bilder</a></h3> |
+            <h3><a href="tur.html">Rekommenderte Reiser</a></h3> |
+            <h3><a href="bestilling.html">Bestill</a></h3>
           </div>
         </div>
-      </div>
-      <div class="turcontainer2">
-          <p class="turcontainer2tekst">NORDLAND ARKTISKE DYRE LIVET</p>
-          <a class="button" href="tur.html" onclick="return true;">
+
+        <div id="dyrContainer">
+            <h2 id="dyrTxt">ARKTISK DYRE LIV</h2>
+            <a class="oppdagButton" href="tur.html" onclick="return true;">
+              OPPDAG MER
+            </a>
+        </div>
+
+        <div id="sledeContainer">
+          <h2 id="sledeTxt">HUNDEKJØRING</h2>
+          <a class="oppdagButton" href="tur.html" onclick="return true;">
             OPPDAG MER
           </a>
+        </div>
+
+        <div id="reiseContainer">
+          <div id="reiseTxt">ARKTISK TUR OPPLEVELSE</div>
+          <a class="oppdagButton" href="tur.html" onclick="return true;">
+            OPPDAG MER
+          </a>
+        </div>
+
       </div>
-      <div class="turcontainer3">
-        <p class="turcontainer3tekst">NORDLAND HUNDEKJØRING</p>
-        <a class="button" href="tur.html" onclick="return true;">
-          OPPDAG MER
-        </a>
-      </div>
-      <div class="turcontainer4">
-        <div class="turcontainer4tekst">ARKTISK TUR OPPLEVELSE</div>
-        <a class="button" href="tur.html" onclick="return true;">
-          OPPDAG MER
-        </a>
-      </div>
-    </div>
-    <footer>
-      <p>
-        &copy;Nordland turist og informasjonsbyrå AS
-        Tlf: <a href="tel:+4722225555">+47 2222-5555 </a>
-        E-mail: <a href="mailto:post@nordlysinordland.no">post@nordlysinordland.no</a>
-      </p>
-    </footer>
-  </main>
-  <script src="js/jquery-3.1.1.js"></script>
-  <script src="js/menu.js"></script>
-</body>
+
+      <footer>
+        <p>
+          &copy;Nordland turist og informasjonsbyrå AS
+          Tlf: <a href="tel:+4722225555">+47 2222-5555 </a>
+          E-mail: <a href="mailto:post@nordlysinordland.no">post@nordlysinordland.no</a>
+        </p>
+      </footer>
+
+    </main>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
 
 </html>
