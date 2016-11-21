@@ -474,7 +474,7 @@ a.button:hover {
   background: rgba(83, 80, 76, 0.5);
   display: block;
   color: black;
-  margin: 0 auto;
+  margin: auto;
   width: 200px;
 }
 
@@ -511,27 +511,6 @@ a.button:hover {
   position: relative;
   margin: auto;
 }
-
-.button{
-  font-family: "proxima-nova black", sans-serif;
-  font-size: 28px;
-  text-align: center;
-  border: 5px solid #352d2d;
-  padding: 25px 65px;
-  background: rgba(83, 80, 76, 0.5);
-  display: inline;
-  position: relative;
-  top: 70px;
-  left: 345px;
-  float: left;
-  color: black;
-}
-
-a.button3:hover {
-  background-color: #b7b7b7;
-  opacity:0.8;
-}
-
 /*-------------------------------*/
 /******index-mobil-responsive*****/
 /*-------------------------------*/
