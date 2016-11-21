@@ -7,8 +7,8 @@ $navn = $_POST['navn'];
 $mobil = $_POST['mobil'];
 $epost = $_POST['epost'];
 $beskjed = $_POST['beskjed'];
-$antallpersoner = $_POST['antallpersoner']
-$tur = $_POST['tur']
+$antallpersoner = $_POST['antallpersoner'];
+$tur = $_POST['tur'];
 ?>
 <head>
 <link rel="stylesheet" media="(min-width: 601px)" href="css/stiler-vanlig.css">
